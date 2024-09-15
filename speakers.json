@@ -1,0 +1,2828 @@
+{
+  "af-ZA-AdriNeural": {
+    "id": "de01067f-3645-4aa3-b7b7-7f37dfe7e0bb",
+    "provider": "azure",
+    "name": "Adri",
+    "language": "Afrikaans (South Africa)",
+    "languageCode": "af-ZA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "af-ZA-WillemNeural": {
+    "id": "80a28ce3-76f6-465a-a300-1ca9490d24ef",
+    "provider": "azure",
+    "name": "Willem",
+    "language": "Afrikaans (South Africa)",
+    "languageCode": "af-ZA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "am-ET-AmehaNeural": {
+    "id": "e5a1414f-dccd-4cbe-8db3-97a082c8eb4a",
+    "provider": "azure",
+    "name": "Ameha",
+    "language": "Amharic (Ethiopia)",
+    "languageCode": "am-ET",
+    "gender": "male",
+    "isPublic": true
+  },
+  "am-ET-MekdesNeural": {
+    "id": "411cfeb0-e911-4f62-ae1d-2a43c6e32275",
+    "provider": "azure",
+    "name": "Mekdes",
+    "language": "Amharic (Ethiopia)",
+    "languageCode": "am-ET",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-AE-FatimaNeural": {
+    "id": "b30190bf-9ce0-468d-be56-09b3b57cbca3",
+    "provider": "azure",
+    "name": "Fatima",
+    "language": "Arabic (United Arab Emirates)",
+    "languageCode": "ar-AE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-AE-HamdanNeural": {
+    "id": "0d520075-9e2c-465b-8b30-823a1a738dff",
+    "provider": "azure",
+    "name": "Hamdan",
+    "language": "Arabic (United Arab Emirates)",
+    "languageCode": "ar-AE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-BH-AliNeural": {
+    "id": "0cfcf642-c275-4530-88e1-42056bc5d69c",
+    "provider": "azure",
+    "name": "Ali",
+    "language": "Arabic (Bahrain)",
+    "languageCode": "ar-BH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-BH-LailaNeural": {
+    "id": "5d787741-5399-4557-9639-f36f0ac95ff6",
+    "provider": "azure",
+    "name": "Laila",
+    "language": "Arabic (Bahrain)",
+    "languageCode": "ar-BH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-DZ-AminaNeural": {
+    "id": "0f98b331-44ff-4bec-bb23-5547bddd4960",
+    "provider": "azure",
+    "name": "Amina",
+    "language": "Arabic (Algeria)",
+    "languageCode": "ar-DZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-DZ-IsmaelNeural": {
+    "id": "775121ff-ba32-40f2-b5f7-dbaa4baae736",
+    "provider": "azure",
+    "name": "Ismael",
+    "language": "Arabic (Algeria)",
+    "languageCode": "ar-DZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-EG-SalmaNeural": {
+    "id": "d4a220e2-419e-4e52-a4e5-f8ad634e8eaf",
+    "provider": "azure",
+    "name": "Salma",
+    "language": "Arabic (Egypt)",
+    "languageCode": "ar-EG",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-EG-ShakirNeural": {
+    "id": "7e5c78f9-99cb-49a4-a1c6-986609d6ea98",
+    "provider": "azure",
+    "name": "Shakir",
+    "language": "Arabic (Egypt)",
+    "languageCode": "ar-EG",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-IQ-BasselNeural": {
+    "id": "b189d8b7-93f2-4a8c-bbff-43dc15ab62ad",
+    "provider": "azure",
+    "name": "Bassel",
+    "language": "Arabic (Iraq)",
+    "languageCode": "ar-IQ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-IQ-RanaNeural": {
+    "id": "f2e4c18d-0453-4d4a-a7bd-15050098a362",
+    "provider": "azure",
+    "name": "Rana",
+    "language": "Arabic (Iraq)",
+    "languageCode": "ar-IQ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-JO-SanaNeural": {
+    "id": "02475695-56a2-4fc0-ab8d-518bd058596a",
+    "provider": "azure",
+    "name": "Sana",
+    "language": "Arabic (Jordan)",
+    "languageCode": "ar-JO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-JO-TaimNeural": {
+    "id": "141060be-3ed6-49d3-a7ec-cd465646fa61",
+    "provider": "azure",
+    "name": "Taim",
+    "language": "Arabic (Jordan)",
+    "languageCode": "ar-JO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-KW-FahedNeural": {
+    "id": "c3d048ee-2554-4b00-aa34-f2f8dbc94d01",
+    "provider": "azure",
+    "name": "Fahed",
+    "language": "Arabic (Kuwait)",
+    "languageCode": "ar-KW",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-KW-NouraNeural": {
+    "id": "7920a445-6aa6-4830-aed3-bb39a26ce1a7",
+    "provider": "azure",
+    "name": "Noura",
+    "language": "Arabic (Kuwait)",
+    "languageCode": "ar-KW",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-LB-LaylaNeural": {
+    "id": "5e0affdf-582a-4128-96aa-5dc1ba25b2d2",
+    "provider": "azure",
+    "name": "Layla",
+    "language": "Arabic (Lebanon)",
+    "languageCode": "ar-LB",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-LB-RamiNeural": {
+    "id": "f0d6de83-20bf-4931-92de-a7cb7de4806f",
+    "provider": "azure",
+    "name": "Rami",
+    "language": "Arabic (Lebanon)",
+    "languageCode": "ar-LB",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-LY-ImanNeural": {
+    "id": "d37876d7-c54d-489d-9e69-ee3349a3c20f",
+    "provider": "azure",
+    "name": "Iman",
+    "language": "Arabic (Libya)",
+    "languageCode": "ar-LY",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-LY-OmarNeural": {
+    "id": "22afda3c-3f78-41b9-bbd5-6fc2d68e41ee",
+    "provider": "azure",
+    "name": "Omar",
+    "language": "Arabic (Libya)",
+    "languageCode": "ar-LY",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-MA-JamalNeural": {
+    "id": "1cc380cc-7351-40e9-8dc6-af5e0075be1f",
+    "provider": "azure",
+    "name": "Jamal",
+    "language": "Arabic (Morocco)",
+    "languageCode": "ar-MA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-MA-MounaNeural": {
+    "id": "feb0de0f-171e-4584-9e25-d2a335ac73bb",
+    "provider": "azure",
+    "name": "Mouna",
+    "language": "Arabic (Morocco)",
+    "languageCode": "ar-MA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-OM-AbdullahNeural": {
+    "id": "cbc0e1da-550d-4a9f-9cbb-242379516e57",
+    "provider": "azure",
+    "name": "Abdullah",
+    "language": "Arabic (Oman)",
+    "languageCode": "ar-OM",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-OM-AyshaNeural": {
+    "id": "b1f4f167-07a8-492e-91af-3ddd378f9e7a",
+    "provider": "azure",
+    "name": "Aysha",
+    "language": "Arabic (Oman)",
+    "languageCode": "ar-OM",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-QA-AmalNeural": {
+    "id": "f0461636-d702-4711-839b-970c25202723",
+    "provider": "azure",
+    "name": "Amal",
+    "language": "Arabic (Qatar)",
+    "languageCode": "ar-QA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-QA-MoazNeural": {
+    "id": "7ea173b8-321d-4c4c-9e04-827873ad26e3",
+    "provider": "azure",
+    "name": "Moaz",
+    "language": "Arabic (Qatar)",
+    "languageCode": "ar-QA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-SA-HamedNeural": {
+    "id": "5687bbd4-b59b-4856-b5c1-4deedc697fa9",
+    "provider": "azure",
+    "name": "Hamed",
+    "language": "Arabic (Saudi Arabia)",
+    "languageCode": "ar-SA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-SA-ZariyahNeural": {
+    "id": "4c04b600-1825-4f85-95c4-674a1d1e9a31",
+    "provider": "azure",
+    "name": "Zariyah",
+    "language": "Arabic (Saudi Arabia)",
+    "languageCode": "ar-SA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-SY-AmanyNeural": {
+    "id": "94cf9685-a6ca-4260-9d8d-e5f3bba05ac0",
+    "provider": "azure",
+    "name": "Amany",
+    "language": "Arabic (Syria)",
+    "languageCode": "ar-SY",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-SY-LaithNeural": {
+    "id": "5acd3a2d-9366-4748-a619-570595fcb990",
+    "provider": "azure",
+    "name": "Laith",
+    "language": "Arabic (Syria)",
+    "languageCode": "ar-SY",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-TN-HediNeural": {
+    "id": "daa289e6-051e-4435-a233-3b324a1c622f",
+    "provider": "azure",
+    "name": "Hedi",
+    "language": "Arabic (Tunisia)",
+    "languageCode": "ar-TN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ar-TN-ReemNeural": {
+    "id": "5bf23237-aa2a-4ecb-863a-d3b300addded",
+    "provider": "azure",
+    "name": "Reem",
+    "language": "Arabic (Tunisia)",
+    "languageCode": "ar-TN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-YE-MaryamNeural": {
+    "id": "f577ce79-9830-4688-842a-669120847135",
+    "provider": "azure",
+    "name": "Maryam",
+    "language": "Arabic (Yemen)",
+    "languageCode": "ar-YE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ar-YE-SalehNeural": {
+    "id": "98624aa2-fc8c-4c66-9539-cce4904e49ea",
+    "provider": "azure",
+    "name": "Saleh",
+    "language": "Arabic (Yemen)",
+    "languageCode": "ar-YE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "az-AZ-BabekNeural": {
+    "id": "73f8df5a-7ad9-48ab-ab07-cffabd0cb57b",
+    "provider": "azure",
+    "name": "Babek",
+    "language": "Azerbaijani (Latin, Azerbaijan)",
+    "languageCode": "az-AZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "az-AZ-BanuNeural": {
+    "id": "f1dc4118-c6b8-458d-9c87-ae825dfede3a",
+    "provider": "azure",
+    "name": "Banu",
+    "language": "Azerbaijani (Latin, Azerbaijan)",
+    "languageCode": "az-AZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "bg-BG-BorislavNeural": {
+    "id": "3e4a516f-28f1-450f-b44d-1f640dabca59",
+    "provider": "azure",
+    "name": "Borislav",
+    "language": "Bulgarian (Bulgaria)",
+    "languageCode": "bg-BG",
+    "gender": "male",
+    "isPublic": true
+  },
+  "bg-BG-KalinaNeural": {
+    "id": "4d1ed37c-ba05-436a-81d7-bef9161be92a",
+    "provider": "azure",
+    "name": "Kalina",
+    "language": "Bulgarian (Bulgaria)",
+    "languageCode": "bg-BG",
+    "gender": "female",
+    "isPublic": true
+  },
+  "bn-BD-NabanitaNeural": {
+    "id": "46411bac-d825-45a1-b5f4-2e2468d63ac8",
+    "provider": "azure",
+    "name": "Nabanita",
+    "language": "Bangla (Bangladesh)",
+    "languageCode": "bn-BD",
+    "gender": "female",
+    "isPublic": true
+  },
+  "bn-BD-PradeepNeural": {
+    "id": "c10861ba-802a-4865-9495-0f7924e3eca4",
+    "provider": "azure",
+    "name": "Pradeep",
+    "language": "Bangla (Bangladesh)",
+    "languageCode": "bn-BD",
+    "gender": "male",
+    "isPublic": true
+  },
+  "bn-IN-BashkarNeural": {
+    "id": "d5cf6f82-9e5f-41c0-a5c5-40a577b8f2eb",
+    "provider": "azure",
+    "name": "Bashkar",
+    "language": "Bengali (India)",
+    "languageCode": "bn-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "bn-IN-TanishaaNeural": {
+    "id": "56b42a02-17a6-4296-90e0-84661463fe10",
+    "provider": "azure",
+    "name": "Tanishaa",
+    "language": "Bengali (India)",
+    "languageCode": "bn-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "bs-BA-GoranNeural": {
+    "id": "825ee09d-3746-4ffd-b84b-b0e62a27b74f",
+    "provider": "azure",
+    "name": "Goran",
+    "language": "Bosnian (Bosnia and Herzegovina)",
+    "languageCode": "bs-BA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "bs-BA-VesnaNeural": {
+    "id": "b6bbede0-afc8-4150-813c-fa5cd64cef8f",
+    "provider": "azure",
+    "name": "Vesna",
+    "language": "Bosnian (Bosnia and Herzegovina)",
+    "languageCode": "bs-BA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ca-ES-EnricNeural": {
+    "id": "c417894b-e776-4731-b567-ac634837fb71",
+    "provider": "azure",
+    "name": "Enric",
+    "language": "Catalan (Spain)",
+    "languageCode": "ca-ES",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ca-ES-JoanaNeural": {
+    "id": "871766b6-5dfe-456f-b605-65c2615e4e56",
+    "provider": "azure",
+    "name": "Joana",
+    "language": "Catalan (Spain)",
+    "languageCode": "ca-ES",
+    "gender": "female",
+    "isPublic": true
+  },
+  "cs-CZ-AntoninNeural": {
+    "id": "d0d3176d-d593-48fe-bbac-6a641b7f4f2f",
+    "provider": "azure",
+    "name": "Antonin",
+    "language": "Czech (Czechia)",
+    "languageCode": "cs-CZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "cs-CZ-VlastaNeural": {
+    "id": "04a0959c-c98b-4f65-a1e0-6a864564029c",
+    "provider": "azure",
+    "name": "Vlasta",
+    "language": "Czech (Czechia)",
+    "languageCode": "cs-CZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "cy-GB-AledNeural": {
+    "id": "af8b6811-fed9-464e-8e24-22146dfaa5c5",
+    "provider": "azure",
+    "name": "Aled",
+    "language": "Welsh (United Kingdom)",
+    "languageCode": "cy-GB",
+    "gender": "male",
+    "isPublic": true
+  },
+  "cy-GB-NiaNeural": {
+    "id": "371a8b04-cab8-4b5f-8ed2-44504c615e6d",
+    "provider": "azure",
+    "name": "Nia",
+    "language": "Welsh (United Kingdom)",
+    "languageCode": "cy-GB",
+    "gender": "female",
+    "isPublic": true
+  },
+  "da-DK-ChristelNeural": {
+    "id": "a4d6b01b-93aa-4f8e-abc4-313c19295a07",
+    "provider": "azure",
+    "name": "Christel",
+    "language": "Danish (Denmark)",
+    "languageCode": "da-DK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "da-DK-JeppeNeural": {
+    "id": "e1479a19-4c5c-4ed3-88e7-fbd48d47b3fe",
+    "provider": "azure",
+    "name": "Jeppe",
+    "language": "Danish (Denmark)",
+    "languageCode": "da-DK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "de-AT-IngridNeural": {
+    "id": "187f00ce-5720-4546-9034-11ec44a6dbe3",
+    "provider": "azure",
+    "name": "Ingrid",
+    "language": "German (Austria)",
+    "languageCode": "de-AT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "de-AT-JonasNeural": {
+    "id": "f3339c33-5ae0-40fd-8ad1-4dab618044e0",
+    "provider": "azure",
+    "name": "Jonas",
+    "language": "German (Austria)",
+    "languageCode": "de-AT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "de-CH-JanNeural": {
+    "id": "f86d3af6-67f6-4965-bc3d-10d2c79931e1",
+    "provider": "azure",
+    "name": "Jan",
+    "language": "German (Switzerland)",
+    "languageCode": "de-CH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "de-CH-LeniNeural": {
+    "id": "81b288c5-8bf0-40a0-a3ca-30bba8431785",
+    "provider": "azure",
+    "name": "Leni",
+    "language": "German (Switzerland)",
+    "languageCode": "de-CH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "de-DE-AmalaNeural": {
+    "id": "d37e4a71-6fdd-4d2c-9c9d-e8e0808bed34",
+    "provider": "azure",
+    "name": "Amala",
+    "language": "German (Germany)",
+    "languageCode": "de-DE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "de-DE-ConradNeural": {
+    "id": "b91726ea-2377-4bde-a143-e30d83b59b30",
+    "provider": "azure",
+    "name": "Conrad",
+    "language": "German (Germany)",
+    "languageCode": "de-DE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "de-DE-FlorianMultilingualNeural": {
+    "id": "28b5b7cc-2959-475c-bd99-5ec63375c965",
+    "provider": "azure",
+    "name": "Florian Multilingual",
+    "language": "German (Germany)",
+    "languageCode": "de-DE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "de-DE-KatjaNeural": {
+    "id": "34525561-c0fc-4197-a331-3fde9acb7996",
+    "provider": "azure",
+    "name": "Katja",
+    "language": "German (Germany)",
+    "languageCode": "de-DE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "de-DE-KillianNeural": {
+    "id": "1a3975cf-ba10-45c1-8ee2-cce74b483c38",
+    "provider": "azure",
+    "name": "Killian",
+    "language": "German (Germany)",
+    "languageCode": "de-DE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "de-DE-SeraphinaMultilingualNeural": {
+    "id": "613614ee-5b4d-4a37-b5bd-58bbcff22508",
+    "provider": "azure",
+    "name": "Seraphina Multilingual",
+    "language": "German (Germany)",
+    "languageCode": "de-DE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "el-GR-AthinaNeural": {
+    "id": "22822a7f-1bd5-44ed-a6ee-739ab9dbe0d9",
+    "provider": "azure",
+    "name": "Athina",
+    "language": "Greek (Greece)",
+    "languageCode": "el-GR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "el-GR-NestorasNeural": {
+    "id": "dfc24ff9-0b9b-442c-acd4-7932b30d4029",
+    "provider": "azure",
+    "name": "Nestoras",
+    "language": "Greek (Greece)",
+    "languageCode": "el-GR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-AU-NatashaNeural": {
+    "id": "994eca53-7a50-43e9-9458-c9e67aeca766",
+    "provider": "azure",
+    "name": "Natasha",
+    "language": "English (Australia)",
+    "languageCode": "en-AU",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-AU-WilliamNeural": {
+    "id": "34804c4f-e45f-4259-8136-1191e3500b0b",
+    "provider": "azure",
+    "name": "William",
+    "language": "English (Australia)",
+    "languageCode": "en-AU",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-CA-ClaraNeural": {
+    "id": "1ae5a0a2-49a3-4e88-8d40-99e5a0ab8774",
+    "provider": "azure",
+    "name": "Clara",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-CA-LiamNeural": {
+    "id": "99ea271e-a468-4d5e-bd58-c80bcc5f8e4e",
+    "provider": "azure",
+    "name": "Liam",
+    "language": "English (Canada)",
+    "languageCode": "en-CA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-GB-LibbyNeural": {
+    "id": "5d372351-6399-4e9d-8890-941c45a4fb35",
+    "provider": "azure",
+    "name": "Libby",
+    "language": "English (United Kingdom)",
+    "languageCode": "en-GB",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-GB-MaisieNeural": {
+    "id": "015c892d-a1ba-4e78-b274-6d5dc592bb6b",
+    "provider": "azure",
+    "name": "Maisie",
+    "language": "English (United Kingdom)",
+    "languageCode": "en-GB",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-GB-RyanNeural": {
+    "id": "5fdeade0-ca19-4148-9c21-42145af92474",
+    "provider": "azure",
+    "name": "Ryan",
+    "language": "English (United Kingdom)",
+    "languageCode": "en-GB",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-GB-SoniaNeural": {
+    "id": "6dcc3a72-0bd6-41bd-888b-bb3d1c5c4897",
+    "provider": "azure",
+    "name": "Sonia",
+    "language": "English (United Kingdom)",
+    "languageCode": "en-GB",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-GB-ThomasNeural": {
+    "id": "56a7809b-f6e2-4a5a-a86d-f8264bbaada9",
+    "provider": "azure",
+    "name": "Thomas",
+    "language": "English (United Kingdom)",
+    "languageCode": "en-GB",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-HK-SamNeural": {
+    "id": "dcc7536b-2bbb-41d3-8b56-94a03f200d0f",
+    "provider": "azure",
+    "name": "Sam",
+    "language": "English (Hong Kong SAR)",
+    "languageCode": "en-HK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-HK-YanNeural": {
+    "id": "97c6ed50-240b-4fc5-8fa8-756ec4af8f3e",
+    "provider": "azure",
+    "name": "Yan",
+    "language": "English (Hong Kong SAR)",
+    "languageCode": "en-HK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-IE-ConnorNeural": {
+    "id": "ac633aac-c445-4256-b392-510b38441269",
+    "provider": "azure",
+    "name": "Connor",
+    "language": "English (Ireland)",
+    "languageCode": "en-IE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-IE-EmilyNeural": {
+    "id": "fa31f3e8-8708-4893-b972-dd5daa2937fd",
+    "provider": "azure",
+    "name": "Emily",
+    "language": "English (Ireland)",
+    "languageCode": "en-IE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-IN-NeerjaNeural": {
+    "id": "e58f2a0a-8818-444d-b07a-74cbd0996bdd",
+    "provider": "azure",
+    "name": "Neerja",
+    "language": "English (India)",
+    "languageCode": "en-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-IN-PrabhatNeural": {
+    "id": "43879cfc-b55e-40b1-aa13-64d4272ed776",
+    "provider": "azure",
+    "name": "Prabhat",
+    "language": "English (India)",
+    "languageCode": "en-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-KE-AsiliaNeural": {
+    "id": "ae9678d7-b508-4ede-a63b-834fa4dcb5d5",
+    "provider": "azure",
+    "name": "Asilia",
+    "language": "English (Kenya)",
+    "languageCode": "en-KE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-KE-ChilembaNeural": {
+    "id": "3e5f9ebd-d451-42db-a5e6-4d999c1cbb19",
+    "provider": "azure",
+    "name": "Chilemba",
+    "language": "English (Kenya)",
+    "languageCode": "en-KE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-NG-AbeoNeural": {
+    "id": "d91ace87-8918-4d1d-b64f-d96ff86989f2",
+    "provider": "azure",
+    "name": "Abeo",
+    "language": "English (Nigeria)",
+    "languageCode": "en-NG",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-NG-EzinneNeural": {
+    "id": "3501aba9-b1eb-41b1-b614-4b8c90f6e958",
+    "provider": "azure",
+    "name": "Ezinne",
+    "language": "English (Nigeria)",
+    "languageCode": "en-NG",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-NZ-MitchellNeural": {
+    "id": "7b28a122-b8c7-482a-803c-a8159d37790e",
+    "provider": "azure",
+    "name": "Mitchell",
+    "language": "English (New Zealand)",
+    "languageCode": "en-NZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-NZ-MollyNeural": {
+    "id": "32a1f0dc-0cbb-46a8-be14-d79cfd9cc3d3",
+    "provider": "azure",
+    "name": "Molly",
+    "language": "English (New Zealand)",
+    "languageCode": "en-NZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-PH-JamesNeural": {
+    "id": "953fdb82-c1a9-4403-88b1-dead9d831a6c",
+    "provider": "azure",
+    "name": "James",
+    "language": "English (Philippines)",
+    "languageCode": "en-PH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-PH-RosaNeural": {
+    "id": "9c68c8c0-1adc-4c38-8eff-beb9cbe81f2d",
+    "provider": "azure",
+    "name": "Rosa",
+    "language": "English (Philippines)",
+    "languageCode": "en-PH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-SG-LunaNeural": {
+    "id": "c4d0873d-5b94-4d9a-97d4-2f44a81d5f83",
+    "provider": "azure",
+    "name": "Luna",
+    "language": "English (Singapore)",
+    "languageCode": "en-SG",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-SG-WayneNeural": {
+    "id": "25633d05-497b-4863-9db1-1aaa47c090b1",
+    "provider": "azure",
+    "name": "Wayne",
+    "language": "English (Singapore)",
+    "languageCode": "en-SG",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-TZ-ElimuNeural": {
+    "id": "faaac53a-77de-48d9-b897-b5628ef00085",
+    "provider": "azure",
+    "name": "Elimu",
+    "language": "English (Tanzania)",
+    "languageCode": "en-TZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-TZ-ImaniNeural": {
+    "id": "bbd0d2b5-494f-476d-9efb-767079e7a9ef",
+    "provider": "azure",
+    "name": "Imani",
+    "language": "English (Tanzania)",
+    "languageCode": "en-TZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-AnaNeural": {
+    "id": "947e9a16-61a8-4438-93cc-100cfb16431f",
+    "provider": "azure",
+    "name": "Ana",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-AndrewMultilingualNeural": {
+    "id": "283a9d69-9f6f-4c0e-83b3-d29e19df4574",
+    "provider": "azure",
+    "name": "Andrew Multilingual",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-US-AriaNeural": {
+    "id": "c794ce16-9e91-462d-89ea-767bba3ffa1f",
+    "provider": "azure",
+    "name": "Aria",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-AvaMultilingualNeural": {
+    "id": "b2912614-84e2-41d6-ba50-4a492075b635",
+    "provider": "azure",
+    "name": "Ava Multilingual",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-AvaNeural": {
+    "id": "840c5008-d34c-4ac8-b9e8-3f791280d439",
+    "provider": "azure",
+    "name": "Ava",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-BrianMultilingualNeural": {
+    "id": "96ff1d3f-6875-4947-b6ac-3033b296a154",
+    "provider": "azure",
+    "name": "Brian Multilingual",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-US-ChristopherNeural": {
+    "id": "d80ffef4-3c1f-44a5-a2d2-01c2498b818b",
+    "provider": "azure",
+    "name": "Christopher",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-US-EmmaMultilingualNeural": {
+    "id": "a0674a6c-6b1d-4b66-ae93-bb64c8a3413c",
+    "provider": "azure",
+    "name": "Emma Multilingual",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-EricNeural": {
+    "id": "59036696-deaa-4915-ae0e-0d0d35258f96",
+    "provider": "azure",
+    "name": "Eric",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-US-GuyNeural": {
+    "id": "2a5f9edd-7f6c-4917-924a-5111f520bc17",
+    "provider": "azure",
+    "name": "Guy",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-US-JennyNeural": {
+    "id": "a3442329-a486-4ab0-be18-da9795b3f1e4",
+    "provider": "azure",
+    "name": "Jenny",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-MichelleNeural": {
+    "id": "bfa56825-3815-4ef1-a5cd-4e63c54c503e",
+    "provider": "azure",
+    "name": "Michelle",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-US-RogerNeural": {
+    "id": "714a38c5-0794-44e7-84df-bbf74e9d3097",
+    "provider": "azure",
+    "name": "Roger",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-US-SteffanNeural": {
+    "id": "2e1349c0-739d-4c38-9d7e-930e9ede5881",
+    "provider": "azure",
+    "name": "Steffan",
+    "language": "English (United States)",
+    "languageCode": "en-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "en-ZA-LeahNeural": {
+    "id": "b17b09d7-52e2-4503-8010-e7a1804fe0f0",
+    "provider": "azure",
+    "name": "Leah",
+    "language": "English (South Africa)",
+    "languageCode": "en-ZA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "en-ZA-LukeNeural": {
+    "id": "aa0fc339-47bb-4418-9f6a-e1bb6c592492",
+    "provider": "azure",
+    "name": "Luke",
+    "language": "English (South Africa)",
+    "languageCode": "en-ZA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-AR-ElenaNeural": {
+    "id": "0be4abce-6814-43b9-bb56-2e3634cc1bc9",
+    "provider": "azure",
+    "name": "Elena",
+    "language": "Spanish (Argentina)",
+    "languageCode": "es-AR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-AR-TomasNeural": {
+    "id": "8b0adffd-5202-4dde-b569-346ab143051b",
+    "provider": "azure",
+    "name": "Tomas",
+    "language": "Spanish (Argentina)",
+    "languageCode": "es-AR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-BO-MarceloNeural": {
+    "id": "3a9481cd-59fa-4efb-b97d-15417f00b593",
+    "provider": "azure",
+    "name": "Marcelo",
+    "language": "Spanish (Bolivia)",
+    "languageCode": "es-BO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-BO-SofiaNeural": {
+    "id": "7fbee81f-81b4-4ddf-b289-37147f548762",
+    "provider": "azure",
+    "name": "Sofia",
+    "language": "Spanish (Bolivia)",
+    "languageCode": "es-BO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-CL-CatalinaNeural": {
+    "id": "24068439-5fae-43bf-a119-baf36aef6f63",
+    "provider": "azure",
+    "name": "Catalina",
+    "language": "Spanish (Chile)",
+    "languageCode": "es-CL",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-CL-LorenzoNeural": {
+    "id": "d3d1d290-ea5f-48e7-b8de-8297e748faa7",
+    "provider": "azure",
+    "name": "Lorenzo",
+    "language": "Spanish (Chile)",
+    "languageCode": "es-CL",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-CO-GonzaloNeural": {
+    "id": "5aa6f525-b044-46f3-a965-2adf8d4c8cb4",
+    "provider": "azure",
+    "name": "Gonzalo",
+    "language": "Spanish (Colombia)",
+    "languageCode": "es-CO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-CO-SalomeNeural": {
+    "id": "920dcdf4-c69e-4fba-b86e-c6415f604045",
+    "provider": "azure",
+    "name": "Salome",
+    "language": "Spanish (Colombia)",
+    "languageCode": "es-CO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-CR-JuanNeural": {
+    "id": "6b75796d-fe35-4ae9-b7c3-ff56b68fe0d0",
+    "provider": "azure",
+    "name": "Juan",
+    "language": "Spanish (Costa Rica)",
+    "languageCode": "es-CR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-CR-MariaNeural": {
+    "id": "fae96208-b5f2-4573-be1f-9143eda45499",
+    "provider": "azure",
+    "name": "Maria",
+    "language": "Spanish (Costa Rica)",
+    "languageCode": "es-CR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-CU-BelkysNeural": {
+    "id": "977041a2-f1d2-402c-9da4-ceff14c4a5d0",
+    "provider": "azure",
+    "name": "Belkys",
+    "language": "Spanish (Cuba)",
+    "languageCode": "es-CU",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-CU-ManuelNeural": {
+    "id": "8936060a-da25-496b-ad9e-c64b31bbfee4",
+    "provider": "azure",
+    "name": "Manuel",
+    "language": "Spanish (Cuba)",
+    "languageCode": "es-CU",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-DO-EmilioNeural": {
+    "id": "abd80653-b6f2-4bc3-ba64-487ebb136fe6",
+    "provider": "azure",
+    "name": "Emilio",
+    "language": "Spanish (Dominican Republic)",
+    "languageCode": "es-DO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-DO-RamonaNeural": {
+    "id": "52be5424-eb99-4184-aa32-afc6222a7c27",
+    "provider": "azure",
+    "name": "Ramona",
+    "language": "Spanish (Dominican Republic)",
+    "languageCode": "es-DO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-EC-AndreaNeural": {
+    "id": "1883e8ff-464a-4ce7-ad78-6ffb18537cfd",
+    "provider": "azure",
+    "name": "Andrea",
+    "language": "Spanish (Ecuador)",
+    "languageCode": "es-EC",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-EC-LuisNeural": {
+    "id": "00c50a3b-b285-4b3e-a446-2ca054a9313f",
+    "provider": "azure",
+    "name": "Luis",
+    "language": "Spanish (Ecuador)",
+    "languageCode": "es-EC",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-ES-AlvaroNeural": {
+    "id": "db4507f6-9c74-42b3-a35c-a08181f64a53",
+    "provider": "azure",
+    "name": "Alvaro",
+    "language": "Spanish (Spain)",
+    "languageCode": "es-ES",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-ES-ElviraNeural": {
+    "id": "77cf128c-d303-48ac-afff-97ff0d3586c1",
+    "provider": "azure",
+    "name": "Elvira",
+    "language": "Spanish (Spain)",
+    "languageCode": "es-ES",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-ES-XimenaNeural": {
+    "id": "f7d78853-cef6-4447-8baf-ce736a7071eb",
+    "provider": "azure",
+    "name": "Ximena",
+    "language": "Spanish (Spain)",
+    "languageCode": "es-ES",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-GQ-JavierNeural": {
+    "id": "b654012a-e4ad-492d-b248-d95b4fb7602b",
+    "provider": "azure",
+    "name": "Javier",
+    "language": "Spanish (Equatorial Guinea)",
+    "languageCode": "es-GQ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-GQ-TeresaNeural": {
+    "id": "e40b5124-f22b-4029-8774-1b556a99c03b",
+    "provider": "azure",
+    "name": "Teresa",
+    "language": "Spanish (Equatorial Guinea)",
+    "languageCode": "es-GQ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-GT-AndresNeural": {
+    "id": "8a33c9d5-7532-4b63-9b97-ec99a7d61623",
+    "provider": "azure",
+    "name": "Andres",
+    "language": "Spanish (Guatemala)",
+    "languageCode": "es-GT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-GT-MartaNeural": {
+    "id": "233d67fe-fed0-421d-97c7-a4c11d30ecc6",
+    "provider": "azure",
+    "name": "Marta",
+    "language": "Spanish (Guatemala)",
+    "languageCode": "es-GT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-HN-CarlosNeural": {
+    "id": "d95c1e43-3661-42f0-93f1-0dd0ed04c989",
+    "provider": "azure",
+    "name": "Carlos",
+    "language": "Spanish (Honduras)",
+    "languageCode": "es-HN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-HN-KarlaNeural": {
+    "id": "31aebeb4-0be4-4d34-b30d-6a1eddd234b6",
+    "provider": "azure",
+    "name": "Karla",
+    "language": "Spanish (Honduras)",
+    "languageCode": "es-HN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-MX-DaliaNeural": {
+    "id": "2d593b1b-b4c4-4c42-88bb-4d9d266cba21",
+    "provider": "azure",
+    "name": "Dalia",
+    "language": "Spanish (Mexico)",
+    "languageCode": "es-MX",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-MX-JorgeNeural": {
+    "id": "fff35598-03e4-4365-9b8b-812a619589fa",
+    "provider": "azure",
+    "name": "Jorge",
+    "language": "Spanish (Mexico)",
+    "languageCode": "es-MX",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-NI-FedericoNeural": {
+    "id": "59853e0a-7cdf-4aa5-9e30-a1e4c6f6c44e",
+    "provider": "azure",
+    "name": "Federico",
+    "language": "Spanish (Nicaragua)",
+    "languageCode": "es-NI",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-NI-YolandaNeural": {
+    "id": "1b232f93-2e92-4a27-ba56-58c3b329cf18",
+    "provider": "azure",
+    "name": "Yolanda",
+    "language": "Spanish (Nicaragua)",
+    "languageCode": "es-NI",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-PA-MargaritaNeural": {
+    "id": "83fc8752-30d8-47c0-a538-9190a8d28316",
+    "provider": "azure",
+    "name": "Margarita",
+    "language": "Spanish (Panama)",
+    "languageCode": "es-PA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-PA-RobertoNeural": {
+    "id": "00a95927-6ec2-424d-965e-5cd724edcdaf",
+    "provider": "azure",
+    "name": "Roberto",
+    "language": "Spanish (Panama)",
+    "languageCode": "es-PA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-PE-AlexNeural": {
+    "id": "a7fe1ea3-49b0-409b-bc36-982e40e23f98",
+    "provider": "azure",
+    "name": "Alex",
+    "language": "Spanish (Peru)",
+    "languageCode": "es-PE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-PE-CamilaNeural": {
+    "id": "18512d6d-465c-4cc8-8534-4b804163f210",
+    "provider": "azure",
+    "name": "Camila",
+    "language": "Spanish (Peru)",
+    "languageCode": "es-PE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-PR-KarinaNeural": {
+    "id": "170813fa-6df9-4b34-b36a-a4e786ce348a",
+    "provider": "azure",
+    "name": "Karina",
+    "language": "Spanish (Puerto Rico)",
+    "languageCode": "es-PR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-PR-VictorNeural": {
+    "id": "1f42b8fc-04b0-4c1d-8299-033e5246b478",
+    "provider": "azure",
+    "name": "Victor",
+    "language": "Spanish (Puerto Rico)",
+    "languageCode": "es-PR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-PY-MarioNeural": {
+    "id": "fce18659-3b48-4811-8d67-32bab0985b5e",
+    "provider": "azure",
+    "name": "Mario",
+    "language": "Spanish (Paraguay)",
+    "languageCode": "es-PY",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-PY-TaniaNeural": {
+    "id": "8ccc1d56-f65c-45d9-924c-2e56485ec670",
+    "provider": "azure",
+    "name": "Tania",
+    "language": "Spanish (Paraguay)",
+    "languageCode": "es-PY",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-SV-LorenaNeural": {
+    "id": "452a21d8-6630-4d68-94cb-ff25d21ab5dc",
+    "provider": "azure",
+    "name": "Lorena",
+    "language": "Spanish (El Salvador)",
+    "languageCode": "es-SV",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-SV-RodrigoNeural": {
+    "id": "7d293317-a824-4c0e-a24a-a4c734323cc6",
+    "provider": "azure",
+    "name": "Rodrigo",
+    "language": "Spanish (El Salvador)",
+    "languageCode": "es-SV",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-US-AlonsoNeural": {
+    "id": "b3a99089-7b00-4ade-af6e-cc14af00cd28",
+    "provider": "azure",
+    "name": "Alonso",
+    "language": "Spanish (United States)",
+    "languageCode": "es-US",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-US-PalomaNeural": {
+    "id": "047f2ce0-4e19-4b15-8099-695f8afd3792",
+    "provider": "azure",
+    "name": "Paloma",
+    "language": "Spanish (United States)",
+    "languageCode": "es-US",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-UY-MateoNeural": {
+    "id": "b4982d8d-17a1-4823-bcae-74e1aeb0a664",
+    "provider": "azure",
+    "name": "Mateo",
+    "language": "Spanish (Uruguay)",
+    "languageCode": "es-UY",
+    "gender": "male",
+    "isPublic": true
+  },
+  "es-UY-ValentinaNeural": {
+    "id": "0a472813-3628-452a-826f-c1d235ade32d",
+    "provider": "azure",
+    "name": "Valentina",
+    "language": "Spanish (Uruguay)",
+    "languageCode": "es-UY",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-VE-PaolaNeural": {
+    "id": "4c313306-bf78-4ee4-86fa-4bdbc93010de",
+    "provider": "azure",
+    "name": "Paola",
+    "language": "Spanish (Venezuela)",
+    "languageCode": "es-VE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "es-VE-SebastianNeural": {
+    "id": "b5e66322-f336-420b-b72c-7252cb5c5e14",
+    "provider": "azure",
+    "name": "Sebastian",
+    "language": "Spanish (Venezuela)",
+    "languageCode": "es-VE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "et-EE-AnuNeural": {
+    "id": "6fc204df-2896-489e-9ff2-2bcbb10dfce8",
+    "provider": "azure",
+    "name": "Anu",
+    "language": "Estonian (Estonia)",
+    "languageCode": "et-EE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "et-EE-KertNeural": {
+    "id": "40a74b2a-4efe-421c-bda6-383359c2a676",
+    "provider": "azure",
+    "name": "Kert",
+    "language": "Estonian (Estonia)",
+    "languageCode": "et-EE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fa-IR-DilaraNeural": {
+    "id": "31ff3f2f-a096-4bb3-9dbf-d641f0c3ea78",
+    "provider": "azure",
+    "name": "Dilara",
+    "language": "Persian (Iran)",
+    "languageCode": "fa-IR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fa-IR-FaridNeural": {
+    "id": "4130a867-0011-4754-a70d-437c49e504bd",
+    "provider": "azure",
+    "name": "Farid",
+    "language": "Persian (Iran)",
+    "languageCode": "fa-IR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fi-FI-HarriNeural": {
+    "id": "cc3a1b5d-6634-410d-8690-c824c8ddb265",
+    "provider": "azure",
+    "name": "Harri",
+    "language": "Finnish (Finland)",
+    "languageCode": "fi-FI",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fi-FI-NooraNeural": {
+    "id": "e88a6d89-cf16-405c-8089-7c5c43b272a2",
+    "provider": "azure",
+    "name": "Noora",
+    "language": "Finnish (Finland)",
+    "languageCode": "fi-FI",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fil-PH-AngeloNeural": {
+    "id": "d98d5453-8dc3-45e6-9d71-6037ead352b7",
+    "provider": "azure",
+    "name": "Angelo",
+    "language": "Filipino (Philippines)",
+    "languageCode": "fil-PH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fil-PH-BlessicaNeural": {
+    "id": "3ea3b0bf-d4ae-48b8-a97a-3f8fec5251a9",
+    "provider": "azure",
+    "name": "Blessica",
+    "language": "Filipino (Philippines)",
+    "languageCode": "fil-PH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fr-BE-CharlineNeural": {
+    "id": "2c9dab3e-52ea-4889-816c-8ff003993f30",
+    "provider": "azure",
+    "name": "Charline",
+    "language": "French (Belgium)",
+    "languageCode": "fr-BE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fr-BE-GerardNeural": {
+    "id": "adfb1039-796a-4995-8d10-1c62c75b7d30",
+    "provider": "azure",
+    "name": "Gerard",
+    "language": "French (Belgium)",
+    "languageCode": "fr-BE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-CA-AntoineNeural": {
+    "id": "bed11948-354e-47f1-afee-f0f13701b008",
+    "provider": "azure",
+    "name": "Antoine",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-CA-JeanNeural": {
+    "id": "65934c60-9c31-464a-b6c7-eea0a883105c",
+    "provider": "azure",
+    "name": "Jean",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-CA-SylvieNeural": {
+    "id": "ebcae30f-e6ea-4624-822a-9f5c4c65e203",
+    "provider": "azure",
+    "name": "Sylvie",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fr-CA-ThierryNeural": {
+    "id": "eaf54d3c-ac0d-492b-9af6-74d8abba4bad",
+    "provider": "azure",
+    "name": "Thierry",
+    "language": "French (Canada)",
+    "languageCode": "fr-CA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-CH-ArianeNeural": {
+    "id": "b0638e41-1fa0-49fd-9cbc-34ffb3a21669",
+    "provider": "azure",
+    "name": "Ariane",
+    "language": "French (Switzerland)",
+    "languageCode": "fr-CH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fr-CH-FabriceNeural": {
+    "id": "f9f64323-48e8-4da7-b80e-2df04d87f150",
+    "provider": "azure",
+    "name": "Fabrice",
+    "language": "French (Switzerland)",
+    "languageCode": "fr-CH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-FR-DeniseNeural": {
+    "id": "2f80ea9e-72a2-4270-bf82-78c9ea0adb1a",
+    "provider": "azure",
+    "name": "Denise",
+    "language": "French (France)",
+    "languageCode": "fr-FR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fr-FR-EloiseNeural": {
+    "id": "646187c9-7902-4d25-b691-0844f00ff623",
+    "provider": "azure",
+    "name": "Eloise",
+    "language": "French (France)",
+    "languageCode": "fr-FR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "fr-FR-HenriNeural": {
+    "id": "9e516d7a-d329-48a2-9484-a487a4882a54",
+    "provider": "azure",
+    "name": "Henri",
+    "language": "French (France)",
+    "languageCode": "fr-FR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-FR-RemyMultilingualNeural": {
+    "id": "b896112f-e4a5-47f2-b494-1089db0cf244",
+    "provider": "azure",
+    "name": "Remy Multilingual",
+    "language": "French (France)",
+    "languageCode": "fr-FR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "fr-FR-VivienneMultilingualNeural": {
+    "id": "b695fd3b-7375-4ef2-8a65-a31fffd0b404",
+    "provider": "azure",
+    "name": "Vivienne Multilingual",
+    "language": "French (France)",
+    "languageCode": "fr-FR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ga-IE-ColmNeural": {
+    "id": "220d9219-3571-48bb-a5ff-bf03a89edebc",
+    "provider": "azure",
+    "name": "Colm",
+    "language": "Irish (Ireland)",
+    "languageCode": "ga-IE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ga-IE-OrlaNeural": {
+    "id": "a008c3df-139c-4d58-b0b0-e83ab685c7b7",
+    "provider": "azure",
+    "name": "Orla",
+    "language": "Irish (Ireland)",
+    "languageCode": "ga-IE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "gl-ES-RoiNeural": {
+    "id": "885f3655-8fdb-41f7-b511-a5ca928e8f27",
+    "provider": "azure",
+    "name": "Roi",
+    "language": "Galician",
+    "languageCode": "gl-ES",
+    "gender": "male",
+    "isPublic": true
+  },
+  "gl-ES-SabelaNeural": {
+    "id": "ade94ff7-d330-46bc-92e2-86898efa41ee",
+    "provider": "azure",
+    "name": "Sabela",
+    "language": "Galician",
+    "languageCode": "gl-ES",
+    "gender": "female",
+    "isPublic": true
+  },
+  "gu-IN-DhwaniNeural": {
+    "id": "9aceaea0-c275-4d7d-b5b8-c9f98b9dcd23",
+    "provider": "azure",
+    "name": "Dhwani",
+    "language": "Gujarati (India)",
+    "languageCode": "gu-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "gu-IN-NiranjanNeural": {
+    "id": "8003edc6-f7e5-4b7a-b4e9-f9fb9f841db1",
+    "provider": "azure",
+    "name": "Niranjan",
+    "language": "Gujarati (India)",
+    "languageCode": "gu-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "he-IL-AvriNeural": {
+    "id": "75ef3e93-c11e-46ac-be85-b46c9bccc0ee",
+    "provider": "azure",
+    "name": "Avri",
+    "language": "Hebrew (Israel)",
+    "languageCode": "he-IL",
+    "gender": "male",
+    "isPublic": true
+  },
+  "he-IL-HilaNeural": {
+    "id": "f73cd44f-cce5-4fc1-99b1-8cd9116fdb2d",
+    "provider": "azure",
+    "name": "Hila",
+    "language": "Hebrew (Israel)",
+    "languageCode": "he-IL",
+    "gender": "female",
+    "isPublic": true
+  },
+  "hi-IN-MadhurNeural": {
+    "id": "1dbcc4d7-a49d-4482-ab3a-926e2baf2622",
+    "provider": "azure",
+    "name": "Madhur",
+    "language": "Hindi (India)",
+    "languageCode": "hi-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "hi-IN-SwaraNeural": {
+    "id": "067ed149-5cf3-4424-9e50-61bb05133c38",
+    "provider": "azure",
+    "name": "Swara",
+    "language": "Hindi (India)",
+    "languageCode": "hi-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "hr-HR-GabrijelaNeural": {
+    "id": "0061d8aa-5f23-4350-ad8d-a6d8a3c27717",
+    "provider": "azure",
+    "name": "Gabrijela",
+    "language": "Croatian (Croatia)",
+    "languageCode": "hr-HR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "hr-HR-SreckoNeural": {
+    "id": "b0d6e781-dfbd-48c5-a034-8ebf24961a00",
+    "provider": "azure",
+    "name": "Srecko",
+    "language": "Croatian (Croatia)",
+    "languageCode": "hr-HR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "hu-HU-NoemiNeural": {
+    "id": "b96d6d38-a843-488e-827a-af580cc8016f",
+    "provider": "azure",
+    "name": "Noemi",
+    "language": "Hungarian (Hungary)",
+    "languageCode": "hu-HU",
+    "gender": "female",
+    "isPublic": true
+  },
+  "hu-HU-TamasNeural": {
+    "id": "ad3f806b-64ae-4cc0-9357-fa76fcd4140d",
+    "provider": "azure",
+    "name": "Tamas",
+    "language": "Hungarian (Hungary)",
+    "languageCode": "hu-HU",
+    "gender": "male",
+    "isPublic": true
+  },
+  "id-ID-ArdiNeural": {
+    "id": "7442b3d5-99c4-46a8-9880-b7ebe86024b5",
+    "provider": "azure",
+    "name": "Ardi",
+    "language": "Indonesian (Indonesia)",
+    "languageCode": "id-ID",
+    "gender": "male",
+    "isPublic": true
+  },
+  "id-ID-GadisNeural": {
+    "id": "b84a5819-7d69-48cc-940d-9a9ae70436e4",
+    "provider": "azure",
+    "name": "Gadis",
+    "language": "Indonesian (Indonesia)",
+    "languageCode": "id-ID",
+    "gender": "female",
+    "isPublic": true
+  },
+  "is-IS-GudrunNeural": {
+    "id": "f8bd93e3-fded-4c71-b05e-284e0429200c",
+    "provider": "azure",
+    "name": "Gudrun",
+    "language": "Icelandic (Iceland)",
+    "languageCode": "is-IS",
+    "gender": "female",
+    "isPublic": true
+  },
+  "is-IS-GunnarNeural": {
+    "id": "66e7a182-ba04-42e0-b841-524f63d644d0",
+    "provider": "azure",
+    "name": "Gunnar",
+    "language": "Icelandic (Iceland)",
+    "languageCode": "is-IS",
+    "gender": "male",
+    "isPublic": true
+  },
+  "it-IT-DiegoNeural": {
+    "id": "0cf7c7d4-ebf4-46ea-a4d1-265a9439d9c4",
+    "provider": "azure",
+    "name": "Diego",
+    "language": "Italian (Italy)",
+    "languageCode": "it-IT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "it-IT-ElsaNeural": {
+    "id": "502812aa-f23d-4de6-9e74-fe11b41e0ec2",
+    "provider": "azure",
+    "name": "Elsa",
+    "language": "Italian (Italy)",
+    "languageCode": "it-IT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "it-IT-GiuseppeNeural": {
+    "id": "d1e44769-e55d-4274-97e6-f666ae5f6a78",
+    "provider": "azure",
+    "name": "Giuseppe",
+    "language": "Italian (Italy)",
+    "languageCode": "it-IT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "it-IT-IsabellaNeural": {
+    "id": "57d5a76d-8abc-4e99-8ccf-aa420a9178e7",
+    "provider": "azure",
+    "name": "Isabella",
+    "language": "Italian (Italy)",
+    "languageCode": "it-IT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ja-JP-KeitaNeural": {
+    "id": "e409fc27-cc18-48d8-bfb3-ab359a4619d7",
+    "provider": "azure",
+    "name": "Keita",
+    "language": "Japanese (Japan)",
+    "languageCode": "ja-JP",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ja-JP-NanamiNeural": {
+    "id": "90b8a29d-fa4c-442c-a6a8-56b89bc3bbf5",
+    "provider": "azure",
+    "name": "Nanami",
+    "language": "Japanese (Japan)",
+    "languageCode": "ja-JP",
+    "gender": "female",
+    "isPublic": true
+  },
+  "jv-ID-DimasNeural": {
+    "id": "728fe5dc-38cd-49ce-8cfe-670f888ed9b6",
+    "provider": "azure",
+    "name": "Dimas",
+    "language": "Javanese (Latin, Indonesia)",
+    "languageCode": "jv-ID",
+    "gender": "male",
+    "isPublic": true
+  },
+  "jv-ID-SitiNeural": {
+    "id": "e62fda26-f9c0-4d0f-81ca-6a6b8c77a4d9",
+    "provider": "azure",
+    "name": "Siti",
+    "language": "Javanese (Latin, Indonesia)",
+    "languageCode": "jv-ID",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ka-GE-EkaNeural": {
+    "id": "0dbbd6f0-8d06-4ee1-b092-03ca3ff2bdf9",
+    "provider": "azure",
+    "name": "Eka",
+    "language": "Georgian (Georgia)",
+    "languageCode": "ka-GE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ka-GE-GiorgiNeural": {
+    "id": "1a58518f-dfc6-4969-af86-d5a30c30c0cb",
+    "provider": "azure",
+    "name": "Giorgi",
+    "language": "Georgian (Georgia)",
+    "languageCode": "ka-GE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "kk-KZ-AigulNeural": {
+    "id": "edbd99d0-0350-425a-ad1f-8590d429858b",
+    "provider": "azure",
+    "name": "Aigul",
+    "language": "Kazakh (Kazakhstan)",
+    "languageCode": "kk-KZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "kk-KZ-DauletNeural": {
+    "id": "619294ff-4528-44d7-8125-536df7875360",
+    "provider": "azure",
+    "name": "Daulet",
+    "language": "Kazakh (Kazakhstan)",
+    "languageCode": "kk-KZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "km-KH-PisethNeural": {
+    "id": "1dc61bf8-a7fd-4ed5-b3cf-2e9e95c4ffdb",
+    "provider": "azure",
+    "name": "Piseth",
+    "language": "Khmer (Cambodia)",
+    "languageCode": "km-KH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "km-KH-SreymomNeural": {
+    "id": "25fac1b2-5223-4dca-ad23-c2f672d36e9c",
+    "provider": "azure",
+    "name": "Sreymom",
+    "language": "Khmer (Cambodia)",
+    "languageCode": "km-KH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "kn-IN-GaganNeural": {
+    "id": "93ba9c19-8480-48a1-908b-9d06800bb35c",
+    "provider": "azure",
+    "name": "Gagan",
+    "language": "Kannada (India)",
+    "languageCode": "kn-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "kn-IN-SapnaNeural": {
+    "id": "3225aba7-f133-45e0-b32b-20f6c5440c27",
+    "provider": "azure",
+    "name": "Sapna",
+    "language": "Kannada (India)",
+    "languageCode": "kn-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ko-KR-HyunsuNeural": {
+    "id": "bd451235-c930-48ec-9bec-9b03a951f9e6",
+    "provider": "azure",
+    "name": "Hyunsu",
+    "language": "Korean (Korea)",
+    "languageCode": "ko-KR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ko-KR-InJoonNeural": {
+    "id": "bd46341e-e60f-410b-9f6d-7129fe7b0cb8",
+    "provider": "azure",
+    "name": "InJoon",
+    "language": "Korean (Korea)",
+    "languageCode": "ko-KR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ko-KR-SunHiNeural": {
+    "id": "1460548d-52fc-4273-927d-a53d6c9e0d4f",
+    "provider": "azure",
+    "name": "Sun-Hi",
+    "language": "Korean (Korea)",
+    "languageCode": "ko-KR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "lo-LA-ChanthavongNeural": {
+    "id": "a8b56f17-da13-4230-9e97-dbbbafe747d1",
+    "provider": "azure",
+    "name": "Chanthavong",
+    "language": "Lao (Laos)",
+    "languageCode": "lo-LA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "lo-LA-KeomanyNeural": {
+    "id": "d122fe8d-cb1a-4899-9c35-9cfbe0c631ee",
+    "provider": "azure",
+    "name": "Keomany",
+    "language": "Lao (Laos)",
+    "languageCode": "lo-LA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "lt-LT-LeonasNeural": {
+    "id": "c41624e9-0115-4741-98aa-2b2cdec617f2",
+    "provider": "azure",
+    "name": "Leonas",
+    "language": "Lithuanian (Lithuania)",
+    "languageCode": "lt-LT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "lt-LT-OnaNeural": {
+    "id": "014f5868-76ab-4737-baf8-879e53137437",
+    "provider": "azure",
+    "name": "Ona",
+    "language": "Lithuanian (Lithuania)",
+    "languageCode": "lt-LT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "lv-LV-EveritaNeural": {
+    "id": "4bcd6d8c-73e0-4485-9cf2-4a6f755e728e",
+    "provider": "azure",
+    "name": "Everita",
+    "language": "Latvian (Latvia)",
+    "languageCode": "lv-LV",
+    "gender": "female",
+    "isPublic": true
+  },
+  "lv-LV-NilsNeural": {
+    "id": "a94c3c44-4e0f-441c-97ea-6365e893fdcd",
+    "provider": "azure",
+    "name": "Nils",
+    "language": "Latvian (Latvia)",
+    "languageCode": "lv-LV",
+    "gender": "male",
+    "isPublic": true
+  },
+  "mk-MK-AleksandarNeural": {
+    "id": "52277fd2-8a47-4ff7-a155-43da4ad02b5c",
+    "provider": "azure",
+    "name": "Aleksandar",
+    "language": "Macedonian (North Macedonia)",
+    "languageCode": "mk-MK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "mk-MK-MarijaNeural": {
+    "id": "fa70139a-5139-4874-a109-1b305bd4552d",
+    "provider": "azure",
+    "name": "Marija",
+    "language": "Macedonian (North Macedonia)",
+    "languageCode": "mk-MK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ml-IN-MidhunNeural": {
+    "id": "2042f888-5e8e-4312-9468-da84bda1397d",
+    "provider": "azure",
+    "name": "Midhun",
+    "language": "Malayalam (India)",
+    "languageCode": "ml-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ml-IN-SobhanaNeural": {
+    "id": "cefa3649-a4de-41be-835d-0ea49085b23e",
+    "provider": "azure",
+    "name": "Sobhana",
+    "language": "Malayalam (India)",
+    "languageCode": "ml-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "mn-MN-BataaNeural": {
+    "id": "23e583cb-c39b-4a46-be23-2e5f40795065",
+    "provider": "azure",
+    "name": "Bataa",
+    "language": "Mongolian (Mongolia)",
+    "languageCode": "mn-MN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "mn-MN-YesuiNeural": {
+    "id": "df964b5e-ad8e-4d2a-ae0d-967130ce5b3e",
+    "provider": "azure",
+    "name": "Yesui",
+    "language": "Mongolian (Mongolia)",
+    "languageCode": "mn-MN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "mr-IN-AarohiNeural": {
+    "id": "40af8688-c934-4ddb-b6f1-28c8dd36bd97",
+    "provider": "azure",
+    "name": "Aarohi",
+    "language": "Marathi (India)",
+    "languageCode": "mr-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "mr-IN-ManoharNeural": {
+    "id": "78109af3-1d68-4508-a5df-51c254e63ba7",
+    "provider": "azure",
+    "name": "Manohar",
+    "language": "Marathi (India)",
+    "languageCode": "mr-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ms-MY-OsmanNeural": {
+    "id": "ffe9f6eb-0cb6-4ed0-a63a-8e6781d97c27",
+    "provider": "azure",
+    "name": "Osman",
+    "language": "Malay (Malaysia)",
+    "languageCode": "ms-MY",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ms-MY-YasminNeural": {
+    "id": "2c7c775b-b24e-4fc5-b441-05672db74b1e",
+    "provider": "azure",
+    "name": "Yasmin",
+    "language": "Malay (Malaysia)",
+    "languageCode": "ms-MY",
+    "gender": "female",
+    "isPublic": true
+  },
+  "mt-MT-GraceNeural": {
+    "id": "680e1f90-ccf0-4542-bc73-5b89180d00b2",
+    "provider": "azure",
+    "name": "Grace",
+    "language": "Maltese (Malta)",
+    "languageCode": "mt-MT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "mt-MT-JosephNeural": {
+    "id": "40bef7b3-4120-41a1-ae09-e9465d24a99d",
+    "provider": "azure",
+    "name": "Joseph",
+    "language": "Maltese (Malta)",
+    "languageCode": "mt-MT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "my-MM-NilarNeural": {
+    "id": "cdd54d23-7d3b-4302-bd7e-c5ca9395dc7f",
+    "provider": "azure",
+    "name": "Nilar",
+    "language": "Burmese (Myanmar)",
+    "languageCode": "my-MM",
+    "gender": "female",
+    "isPublic": true
+  },
+  "my-MM-ThihaNeural": {
+    "id": "45761b2c-d6a4-4c62-b219-3dcb7a1ba26a",
+    "provider": "azure",
+    "name": "Thiha",
+    "language": "Burmese (Myanmar)",
+    "languageCode": "my-MM",
+    "gender": "male",
+    "isPublic": true
+  },
+  "nb-NO-FinnNeural": {
+    "id": "c468bcfc-d583-4a36-a57f-db4ed19d88ab",
+    "provider": "azure",
+    "name": "Finn",
+    "language": "Norwegian Bokm\u00e5l (Norway)",
+    "languageCode": "nb-NO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "nb-NO-PernilleNeural": {
+    "id": "d233db9a-5648-4cc4-9385-f0ca9c8588d9",
+    "provider": "azure",
+    "name": "Pernille",
+    "language": "Norwegian Bokm\u00e5l (Norway)",
+    "languageCode": "nb-NO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ne-NP-HemkalaNeural": {
+    "id": "72307139-ae79-4d72-b16b-583c66dfdf93",
+    "provider": "azure",
+    "name": "Hemkala",
+    "language": "Nepali (Nepal)",
+    "languageCode": "ne-NP",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ne-NP-SagarNeural": {
+    "id": "9fc5c336-3ec3-4792-8e90-330144e3d0f2",
+    "provider": "azure",
+    "name": "Sagar",
+    "language": "Nepali (Nepal)",
+    "languageCode": "ne-NP",
+    "gender": "male",
+    "isPublic": true
+  },
+  "nl-BE-ArnaudNeural": {
+    "id": "7a266f79-9f75-419a-930f-7dfafe463d42",
+    "provider": "azure",
+    "name": "Arnaud",
+    "language": "Dutch (Belgium)",
+    "languageCode": "nl-BE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "nl-BE-DenaNeural": {
+    "id": "07cf0b2c-0998-4a40-a81e-6bff33975e51",
+    "provider": "azure",
+    "name": "Dena",
+    "language": "Dutch (Belgium)",
+    "languageCode": "nl-BE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "nl-NL-ColetteNeural": {
+    "id": "6f544a11-a93a-4d87-a0b6-21927a6a2dc2",
+    "provider": "azure",
+    "name": "Colette",
+    "language": "Dutch (Netherlands)",
+    "languageCode": "nl-NL",
+    "gender": "female",
+    "isPublic": true
+  },
+  "nl-NL-FennaNeural": {
+    "id": "183e6134-bf92-4ff3-8d5e-135466d64b57",
+    "provider": "azure",
+    "name": "Fenna",
+    "language": "Dutch (Netherlands)",
+    "languageCode": "nl-NL",
+    "gender": "female",
+    "isPublic": true
+  },
+  "nl-NL-MaartenNeural": {
+    "id": "8fa9d1a7-1f9f-400f-9e4b-63a2751054d4",
+    "provider": "azure",
+    "name": "Maarten",
+    "language": "Dutch (Netherlands)",
+    "languageCode": "nl-NL",
+    "gender": "male",
+    "isPublic": true
+  },
+  "pl-PL-MarekNeural": {
+    "id": "76e16f55-ec3b-4102-90a9-56c8187bdbf7",
+    "provider": "azure",
+    "name": "Marek",
+    "language": "Polish (Poland)",
+    "languageCode": "pl-PL",
+    "gender": "male",
+    "isPublic": true
+  },
+  "pl-PL-ZofiaNeural": {
+    "id": "0dff128a-8f0b-4a0e-9f25-2993af6058f2",
+    "provider": "azure",
+    "name": "Zofia",
+    "language": "Polish (Poland)",
+    "languageCode": "pl-PL",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ps-AF-GulNawazNeural": {
+    "id": "e9b7ada8-9982-4757-a2a8-0b8bf2948c01",
+    "provider": "azure",
+    "name": "Gul Nawaz",
+    "language": "Pashto (Afghanistan)",
+    "languageCode": "ps-AF",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ps-AF-LatifaNeural": {
+    "id": "9fa5b44d-ffd3-45b3-861a-b289f8b69d33",
+    "provider": "azure",
+    "name": "Latifa",
+    "language": "Pashto (Afghanistan)",
+    "languageCode": "ps-AF",
+    "gender": "female",
+    "isPublic": true
+  },
+  "pt-BR-AntonioNeural": {
+    "id": "8d1538d3-ad4e-49c6-82e5-21dd3afe000a",
+    "provider": "azure",
+    "name": "Antonio",
+    "language": "Portuguese (Brazil)",
+    "languageCode": "pt-BR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "pt-BR-FranciscaNeural": {
+    "id": "ec9dcf75-4485-4cdb-97cc-db302bb91dfe",
+    "provider": "azure",
+    "name": "Francisca",
+    "language": "Portuguese (Brazil)",
+    "languageCode": "pt-BR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "pt-BR-ThalitaNeural": {
+    "id": "992e21b5-2026-4b9f-935c-e00bb20a3e42",
+    "provider": "azure",
+    "name": "Thalita",
+    "language": "Portuguese (Brazil)",
+    "languageCode": "pt-BR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "pt-PT-DuarteNeural": {
+    "id": "c9e29e61-a2ee-41fa-83e8-f7fe5fb5a825",
+    "provider": "azure",
+    "name": "Duarte",
+    "language": "Portuguese (Portugal)",
+    "languageCode": "pt-PT",
+    "gender": "male",
+    "isPublic": true
+  },
+  "pt-PT-RaquelNeural": {
+    "id": "0eb3371b-c29a-43a6-86b9-60f65b6ec735",
+    "provider": "azure",
+    "name": "Raquel",
+    "language": "Portuguese (Portugal)",
+    "languageCode": "pt-PT",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ro-RO-AlinaNeural": {
+    "id": "5fff2048-2311-4d39-9390-cef197c14137",
+    "provider": "azure",
+    "name": "Alina",
+    "language": "Romanian (Romania)",
+    "languageCode": "ro-RO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ro-RO-EmilNeural": {
+    "id": "4646278f-847d-456f-8972-ad4f18cbfa82",
+    "provider": "azure",
+    "name": "Emil",
+    "language": "Romanian (Romania)",
+    "languageCode": "ro-RO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ru-RU-DmitryNeural": {
+    "id": "a5d4c205-e89d-4c8e-a651-ef2f20215c9c",
+    "provider": "azure",
+    "name": "Dmitry",
+    "language": "Russian (Russia)",
+    "languageCode": "ru-RU",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ru-RU-SvetlanaNeural": {
+    "id": "bf34dd38-70f2-49f2-8bc2-849153dae86a",
+    "provider": "azure",
+    "name": "Svetlana",
+    "language": "Russian (Russia)",
+    "languageCode": "ru-RU",
+    "gender": "female",
+    "isPublic": true
+  },
+  "si-LK-SameeraNeural": {
+    "id": "8de008fb-9ae7-46d4-ba1d-3e60a2bbee62",
+    "provider": "azure",
+    "name": "Sameera",
+    "language": "Sinhala (Sri Lanka)",
+    "languageCode": "si-LK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "si-LK-ThiliniNeural": {
+    "id": "f494408a-28ac-4d26-8f9a-19c68d96fac3",
+    "provider": "azure",
+    "name": "Thilini",
+    "language": "Sinhala (Sri Lanka)",
+    "languageCode": "si-LK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sk-SK-LukasNeural": {
+    "id": "ba54e778-f708-4439-994b-125c872eebe9",
+    "provider": "azure",
+    "name": "Lukas",
+    "language": "Slovak (Slovakia)",
+    "languageCode": "sk-SK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "sk-SK-ViktoriaNeural": {
+    "id": "b8d86c91-ac4b-4a0d-a46a-769cfcbd83ab",
+    "provider": "azure",
+    "name": "Viktoria",
+    "language": "Slovak (Slovakia)",
+    "languageCode": "sk-SK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sl-SI-PetraNeural": {
+    "id": "ba229431-1b92-4b3b-8538-9e858880ab50",
+    "provider": "azure",
+    "name": "Petra",
+    "language": "Slovenian (Slovenia)",
+    "languageCode": "sl-SI",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sl-SI-RokNeural": {
+    "id": "e5db61bf-2a5b-4edf-b1e2-371f942092cd",
+    "provider": "azure",
+    "name": "Rok",
+    "language": "Slovenian (Slovenia)",
+    "languageCode": "sl-SI",
+    "gender": "male",
+    "isPublic": true
+  },
+  "so-SO-MuuseNeural": {
+    "id": "aa418c3a-5c79-4e7b-a763-74b6683b20e3",
+    "provider": "azure",
+    "name": "Muuse",
+    "language": "Somali (Somalia)",
+    "languageCode": "so-SO",
+    "gender": "male",
+    "isPublic": true
+  },
+  "so-SO-UbaxNeural": {
+    "id": "c2720982-ee55-407c-a61f-879534832ce3",
+    "provider": "azure",
+    "name": "Ubax",
+    "language": "Somali (Somalia)",
+    "languageCode": "so-SO",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sq-AL-AnilaNeural": {
+    "id": "964781b6-0871-4a1d-826e-46bb1e4be9a6",
+    "provider": "azure",
+    "name": "Anila",
+    "language": "Albanian (Albania)",
+    "languageCode": "sq-AL",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sq-AL-IlirNeural": {
+    "id": "0f33caad-9d82-4058-85a8-0335cc2c09fd",
+    "provider": "azure",
+    "name": "Ilir",
+    "language": "Albanian (Albania)",
+    "languageCode": "sq-AL",
+    "gender": "male",
+    "isPublic": true
+  },
+  "sr-RS-NicholasNeural": {
+    "id": "8b716508-0f2a-4dce-a78a-d7aa840794dd",
+    "provider": "azure",
+    "name": "Nicholas",
+    "language": "Serbian (Cyrillic, Serbia)",
+    "languageCode": "sr-RS",
+    "gender": "male",
+    "isPublic": true
+  },
+  "sr-RS-SophieNeural": {
+    "id": "0fd28654-3d88-4859-981b-d69e5185b4dd",
+    "provider": "azure",
+    "name": "Sophie",
+    "language": "Serbian (Cyrillic, Serbia)",
+    "languageCode": "sr-RS",
+    "gender": "female",
+    "isPublic": true
+  },
+  "su-ID-JajangNeural": {
+    "id": "adc67063-f290-4446-b28a-e594c2c53247",
+    "provider": "azure",
+    "name": "Jajang",
+    "language": "Sundanese (Indonesia)",
+    "languageCode": "su-ID",
+    "gender": "male",
+    "isPublic": true
+  },
+  "su-ID-TutiNeural": {
+    "id": "4b9c788d-a421-450f-a324-6395799e84d5",
+    "provider": "azure",
+    "name": "Tuti",
+    "language": "Sundanese (Indonesia)",
+    "languageCode": "su-ID",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sv-SE-MattiasNeural": {
+    "id": "16e0d37c-b13e-49d0-95ea-70d0e59961fe",
+    "provider": "azure",
+    "name": "Mattias",
+    "language": "Swedish (Sweden)",
+    "languageCode": "sv-SE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "sv-SE-SofieNeural": {
+    "id": "86d1d33b-2757-4620-8a76-62ddaa997b77",
+    "provider": "azure",
+    "name": "Sofie",
+    "language": "Swedish (Sweden)",
+    "languageCode": "sv-SE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sw-KE-RafikiNeural": {
+    "id": "0f213409-547f-40a3-9f6b-59c5a122a87d",
+    "provider": "azure",
+    "name": "Rafiki",
+    "language": "Swahili (Kenya)",
+    "languageCode": "sw-KE",
+    "gender": "male",
+    "isPublic": true
+  },
+  "sw-KE-ZuriNeural": {
+    "id": "83cc9b97-8f50-44e9-8c6e-a799db513bc2",
+    "provider": "azure",
+    "name": "Zuri",
+    "language": "Swahili (Kenya)",
+    "languageCode": "sw-KE",
+    "gender": "female",
+    "isPublic": true
+  },
+  "sw-TZ-DaudiNeural": {
+    "id": "4dcdbadc-e28e-4f22-910a-4733d81d6367",
+    "provider": "azure",
+    "name": "Daudi",
+    "language": "Swahili (Tanzania)",
+    "languageCode": "sw-TZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "sw-TZ-RehemaNeural": {
+    "id": "421e5644-07b2-489b-a496-aeecb7ee7844",
+    "provider": "azure",
+    "name": "Rehema",
+    "language": "Swahili (Tanzania)",
+    "languageCode": "sw-TZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ta-IN-PallaviNeural": {
+    "id": "26fa264a-0f61-407f-9ca6-981066fe86d1",
+    "provider": "azure",
+    "name": "Pallavi",
+    "language": "Tamil (India)",
+    "languageCode": "ta-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ta-IN-ValluvarNeural": {
+    "id": "d1dd5ce3-25d8-4366-9fc3-590eaa43a180",
+    "provider": "azure",
+    "name": "Valluvar",
+    "language": "Tamil (India)",
+    "languageCode": "ta-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ta-LK-KumarNeural": {
+    "id": "3f90e358-ed17-4c89-82f3-249aadd9167e",
+    "provider": "azure",
+    "name": "Kumar",
+    "language": "Tamil (Sri Lanka)",
+    "languageCode": "ta-LK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ta-LK-SaranyaNeural": {
+    "id": "8d017e79-6f13-42bc-91b6-67714331242b",
+    "provider": "azure",
+    "name": "Saranya",
+    "language": "Tamil (Sri Lanka)",
+    "languageCode": "ta-LK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ta-MY-KaniNeural": {
+    "id": "3c6131cb-19bc-4a84-9f26-73eac7e0f048",
+    "provider": "azure",
+    "name": "Kani",
+    "language": "Tamil (Malaysia)",
+    "languageCode": "ta-MY",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ta-MY-SuryaNeural": {
+    "id": "b8f44031-2fee-4742-b78a-be9e4715ca79",
+    "provider": "azure",
+    "name": "Surya",
+    "language": "Tamil (Malaysia)",
+    "languageCode": "ta-MY",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ta-SG-AnbuNeural": {
+    "id": "8fdce3f2-45dc-4c0a-80b7-0e548248d484",
+    "provider": "azure",
+    "name": "Anbu",
+    "language": "Tamil (Singapore)",
+    "languageCode": "ta-SG",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ta-SG-VenbaNeural": {
+    "id": "bd6d663d-bc15-444a-baff-7039f11cfbb5",
+    "provider": "azure",
+    "name": "Venba",
+    "language": "Tamil (Singapore)",
+    "languageCode": "ta-SG",
+    "gender": "female",
+    "isPublic": true
+  },
+  "te-IN-MohanNeural": {
+    "id": "481716a0-ae1d-468c-8f6a-eb25c8df1411",
+    "provider": "azure",
+    "name": "Mohan",
+    "language": "Telugu (India)",
+    "languageCode": "te-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "te-IN-ShrutiNeural": {
+    "id": "c439df0a-5725-4d8a-99ed-da1a99cbe06f",
+    "provider": "azure",
+    "name": "Shruti",
+    "language": "Telugu (India)",
+    "languageCode": "te-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "th-TH-NiwatNeural": {
+    "id": "8764974c-b8bf-4acb-8526-87c90905a01b",
+    "provider": "azure",
+    "name": "Niwat",
+    "language": "Thai (Thailand)",
+    "languageCode": "th-TH",
+    "gender": "male",
+    "isPublic": true
+  },
+  "th-TH-PremwadeeNeural": {
+    "id": "672c93f0-6ba7-4022-9d51-17dd198d594e",
+    "provider": "azure",
+    "name": "Premwadee",
+    "language": "Thai (Thailand)",
+    "languageCode": "th-TH",
+    "gender": "female",
+    "isPublic": true
+  },
+  "tr-TR-AhmetNeural": {
+    "id": "4a8b65d3-dd91-4c21-9e8b-de6c6d5b2626",
+    "provider": "azure",
+    "name": "Ahmet",
+    "language": "Turkish (Turkey)",
+    "languageCode": "tr-TR",
+    "gender": "male",
+    "isPublic": true
+  },
+  "tr-TR-EmelNeural": {
+    "id": "849c7078-59ae-49cf-ad76-47bd8a56e97a",
+    "provider": "azure",
+    "name": "Emel",
+    "language": "Turkish (Turkey)",
+    "languageCode": "tr-TR",
+    "gender": "female",
+    "isPublic": true
+  },
+  "uk-UA-OstapNeural": {
+    "id": "017b92a1-54a7-437c-9af2-86d40523dc61",
+    "provider": "azure",
+    "name": "Ostap",
+    "language": "Ukrainian (Ukraine)",
+    "languageCode": "uk-UA",
+    "gender": "male",
+    "isPublic": true
+  },
+  "uk-UA-PolinaNeural": {
+    "id": "3f44776c-0a7b-4b1f-a345-1c8b353926c5",
+    "provider": "azure",
+    "name": "Polina",
+    "language": "Ukrainian (Ukraine)",
+    "languageCode": "uk-UA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ur-IN-GulNeural": {
+    "id": "bca49343-9ab0-4a18-abca-f42f6460de76",
+    "provider": "azure",
+    "name": "Gul",
+    "language": "Urdu (India)",
+    "languageCode": "ur-IN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "ur-IN-SalmanNeural": {
+    "id": "b3b4af45-7b63-4e6d-9fea-cefef4346382",
+    "provider": "azure",
+    "name": "Salman",
+    "language": "Urdu (India)",
+    "languageCode": "ur-IN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ur-PK-AsadNeural": {
+    "id": "1d429125-080a-473a-8ca6-6297afb4d60d",
+    "provider": "azure",
+    "name": "Asad",
+    "language": "Urdu (Pakistan)",
+    "languageCode": "ur-PK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "ur-PK-UzmaNeural": {
+    "id": "401670c3-533b-4544-b838-cfe2b205f757",
+    "provider": "azure",
+    "name": "Uzma",
+    "language": "Urdu (Pakistan)",
+    "languageCode": "ur-PK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "uz-UZ-MadinaNeural": {
+    "id": "9bacda80-3b95-4885-b952-0951045fa0f2",
+    "provider": "azure",
+    "name": "Madina",
+    "language": "Uzbek (Latin, Uzbekistan)",
+    "languageCode": "uz-UZ",
+    "gender": "female",
+    "isPublic": true
+  },
+  "uz-UZ-SardorNeural": {
+    "id": "2d79f2bc-a665-416a-b414-1a7724e6c934",
+    "provider": "azure",
+    "name": "Sardor",
+    "language": "Uzbek (Latin, Uzbekistan)",
+    "languageCode": "uz-UZ",
+    "gender": "male",
+    "isPublic": true
+  },
+  "vi-VN-HoaiMyNeural": {
+    "id": "6a51e347-fe1f-4abe-92cd-9ae950bdfb73",
+    "provider": "azure",
+    "name": "HoaiMy",
+    "language": "Vietnamese (Vietnam)",
+    "languageCode": "vi-VN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "vi-VN-NamMinhNeural": {
+    "id": "c8593d0e-ce14-4425-a83c-294e6e77cac8",
+    "provider": "azure",
+    "name": "NamMinh",
+    "language": "Vietnamese (Vietnam)",
+    "languageCode": "vi-VN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zh-CN-XiaoxiaoNeural": {
+    "id": "342ba4c1-debf-4cd5-aff9-dd90ee17e7fa",
+    "provider": "azure",
+    "name": "Xiaoxiao",
+    "language": "Chinese (Mandarin, Simplified)",
+    "languageCode": "zh-CN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-CN-XiaoyiNeural": {
+    "id": "a9910b76-65ed-4677-9e81-28d1bb1202a1",
+    "provider": "azure",
+    "name": "Xiaoyi",
+    "language": "Chinese (Mandarin, Simplified)",
+    "languageCode": "zh-CN",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-CN-YunjianNeural": {
+    "id": "a344c9b0-f220-4ef7-82c8-7dc5d4aa2582",
+    "provider": "azure",
+    "name": "Yunjian",
+    "language": "Chinese (Mandarin, Simplified)",
+    "languageCode": "zh-CN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zh-CN-YunxiNeural": {
+    "id": "411bd674-5b94-4753-8886-b0d910d12ba1",
+    "provider": "azure",
+    "name": "Yunxi",
+    "language": "Chinese (Mandarin, Simplified)",
+    "languageCode": "zh-CN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zh-CN-YunxiaNeural": {
+    "id": "5fb1f3ec-4f60-4bfd-a930-63c0decf8766",
+    "provider": "azure",
+    "name": "Yunxia",
+    "language": "Chinese (Mandarin, Simplified)",
+    "languageCode": "zh-CN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zh-CN-YunyangNeural": {
+    "id": "61d0dbfe-efd1-4eb7-9f14-2e977c056a62",
+    "provider": "azure",
+    "name": "Yunyang",
+    "language": "Chinese (Mandarin, Simplified)",
+    "languageCode": "zh-CN",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zh-CN-liaoning-XiaobeiNeural": {
+    "id": "63c1c60b-767e-4317-913e-475d500423d5",
+    "provider": "azure",
+    "name": "Xiaobei",
+    "language": "Chinese (Northeastern Mandarin, Simplified)",
+    "languageCode": "zh-CN-liaoning",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-CN-shaanxi-XiaoniNeural": {
+    "id": "a59581c4-b833-45c5-bc9b-484421dab1c7",
+    "provider": "azure",
+    "name": "Xiaoni",
+    "language": "Chinese (Zhongyuan Mandarin Shaanxi, Simplified)",
+    "languageCode": "zh-CN-shaanxi",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-HK-HiuGaaiNeural": {
+    "id": "e413cfb1-ae78-45e1-8b4e-c7712922f262",
+    "provider": "azure",
+    "name": "HiuGaai",
+    "language": "Chinese (Cantonese, Traditional)",
+    "languageCode": "zh-HK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-HK-HiuMaanNeural": {
+    "id": "32584e18-537b-41a1-9cab-ca6614842b79",
+    "provider": "azure",
+    "name": "HiuMaan",
+    "language": "Chinese (Cantonese, Traditional)",
+    "languageCode": "zh-HK",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-HK-WanLungNeural": {
+    "id": "b821ea56-c16b-484b-9318-11799639013f",
+    "provider": "azure",
+    "name": "WanLung",
+    "language": "Chinese (Cantonese, Traditional)",
+    "languageCode": "zh-HK",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zh-TW-HsiaoChenNeural": {
+    "id": "e533d185-1290-4136-a95b-47eea9acb8df",
+    "provider": "azure",
+    "name": "HsiaoChen",
+    "language": "Chinese (Taiwanese Mandarin, Traditional)",
+    "languageCode": "zh-TW",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-TW-HsiaoYuNeural": {
+    "id": "40d61203-9e98-4d5c-8ba9-cf028b5ca75e",
+    "provider": "azure",
+    "name": "HsiaoYu",
+    "language": "Chinese (Taiwanese Mandarin, Traditional)",
+    "languageCode": "zh-TW",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zh-TW-YunJheNeural": {
+    "id": "d6d84993-fb4f-463e-bfef-bfb1fc658e91",
+    "provider": "azure",
+    "name": "YunJhe",
+    "language": "Chinese (Taiwanese Mandarin, Traditional)",
+    "languageCode": "zh-TW",
+    "gender": "male",
+    "isPublic": true
+  },
+  "zu-ZA-ThandoNeural": {
+    "id": "9e84e9f0-ebe5-4582-a0f6-a13e15ede97b",
+    "provider": "azure",
+    "name": "Thando",
+    "language": "Zulu (South Africa)",
+    "languageCode": "zu-ZA",
+    "gender": "female",
+    "isPublic": true
+  },
+  "zu-ZA-ThembaNeural": {
+    "id": "5157c79c-b0c9-42e7-b2b5-3a7cf6a90d76",
+    "provider": "azure",
+    "name": "Themba",
+    "language": "Zulu (South Africa)",
+    "languageCode": "zu-ZA",
+    "gender": "male",
+    "isPublic": true
+  }
+}

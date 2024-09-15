@@ -24,21 +24,23 @@ import zipfile
 
 
 namespaces = {
-   "calibre":"http://calibre.kovidgoyal.net/2009/metadata",
-   "dc":"http://purl.org/dc/elements/1.1/",
-   "dcterms":"http://purl.org/dc/terms/",
-   "opf":"http://www.idpf.org/2007/opf",
-   "u":"urn:oasis:names:tc:opendocument:xmlns:container",
-   "xsi":"http://www.w3.org/2001/XMLSchema-instance",
+    "calibre": "http://calibre.kovidgoyal.net/2009/metadata",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "opf": "http://www.idpf.org/2007/opf",
+    "u": "urn:oasis:names:tc:opendocument:xmlns:container",
+    "xsi": "http://www.w3.org/2001/XMLSchema-instance",
 }
 
 warnings.filterwarnings("ignore", module="ebooklib.epub")
+
 
 def ensure_punkt():
     try:
         nltk.data.find("tokenizers/punkt")
     except LookupError:
         nltk.download("punkt")
+
 
 def chap2text_epub(chap):
     blacklist = [
@@ -73,23 +75,27 @@ def chap2text_epub(chap):
 
     return chapter_title_text, paragraphs
 
+
 def get_epub_cover(epub_path):
     try:
         with zipfile.ZipFile(epub_path) as z:
             t = etree.fromstring(z.read("META-INF/container.xml"))
-            rootfile_path =  t.xpath("/u:container/u:rootfiles/u:rootfile",
-                                        namespaces=namespaces)[0].get("full-path")
+            rootfile_path = t.xpath(
+                "/u:container/u:rootfiles/u:rootfile", namespaces=namespaces
+            )[0].get("full-path")
 
             t = etree.fromstring(z.read(rootfile_path))
-            cover_meta = t.xpath("//opf:metadata/opf:meta[@name='cover']",
-                                        namespaces=namespaces)
+            cover_meta = t.xpath(
+                "//opf:metadata/opf:meta[@name='cover']", namespaces=namespaces
+            )
             if not cover_meta:
                 print("No cover image found.")
                 return None
             cover_id = cover_meta[0].get("content")
 
-            cover_item = t.xpath("//opf:manifest/opf:item[@id='" + cover_id + "']",
-                                            namespaces=namespaces)
+            cover_item = t.xpath(
+                "//opf:manifest/opf:item[@id='" + cover_id + "']", namespaces=namespaces
+            )
             if not cover_item:
                 print("No cover image found.")
                 return None
@@ -100,21 +106,23 @@ def get_epub_cover(epub_path):
     except FileNotFoundError:
         print(f"Could not get cover image of {epub_path}")
 
-def export(book, sourcefile):
+
+def export_chapters(book, sourcefile):
+    # TODO: Add support for from_chapter and to_chapter
     book_contents = []
     cover_image = get_epub_cover(sourcefile)
-    image_path = None
+    cover_image_path = None
 
     if cover_image is not None:
         image = Image.open(cover_image)
         image_filename = sourcefile.replace(".epub", ".png")
-        image_path = os.path.join(image_filename)
-        image.save(image_path)
-        print(f"Cover image saved to {image_path}")
+        cover_image_path = os.path.join(image_filename)
+        image.save(cover_image_path)
+        print(f"Cover image saved to {cover_image_path}")
 
     spine_ids = []
     for spine_tuple in book.spine:
-        if spine_tuple[1] == 'yes': # if item in spine is linear
+        if spine_tuple[1] == "yes":  # if item in spine is linear
             spine_ids.append(spine_tuple[0])
 
     items = {}
@@ -128,26 +136,24 @@ def export(book, sourcefile):
             continue
         chapter_title, chapter_paragraphs = chap2text_epub(item.get_content())
         book_contents.append({"title": chapter_title, "paragraphs": chapter_paragraphs})
-    outfile = sourcefile.replace(".epub", ".txt")
-    check_for_file(outfile)
-    print(f"Exporting {sourcefile} to {outfile}")
-    author = book.get_metadata("DC", "creator")[0][0]
-    booktitle = book.get_metadata("DC", "title")[0][0]
 
-    with open(outfile, "w") as file:
-        file.write(f"Title: {booktitle}\n")
-        file.write(f"Author: {author}\n\n")
-        for i, chapter in enumerate(book_contents, start=1):
-            if chapter["paragraphs"] == [] or chapter["paragraphs"] == ['']:
-                continue
-            else:
-                if chapter["title"] == None:
-                    file.write(f"# Part {i}\n")
-                else:
-                    file.write(f"# {chapter['title']}\n\n")
-                for paragraph in chapter["paragraphs"]:
-                    clean = re.sub(r'[\s\n]+', ' ', paragraph)
-                    file.write(f"{clean}\n\n")
+    chapters = []
+    for i, chapter in enumerate(book_contents, start=1):
+        outfile = f"{sourcefile.replace('.epub', '')}-{i}.txt"
+        print(f"Exporting {sourcefile} to {outfile}")
+        if chapter["paragraphs"] == [] or chapter["paragraphs"] == [""]:
+            print(f"Skipping empty chapter {i}")
+            continue
+        with open(outfile, "w") as file:
+            if chapter["title"]:
+                file.write(f"# {chapter['title']}\n\n")
+            for paragraph in chapter["paragraphs"]:
+                clean = re.sub(r"[\s\n©]+", " ", paragraph)
+                file.write(f"{clean}\n")
+        chapters.append(outfile)
+
+    return chapters, cover_image_path
+
 
 def get_book(sourcefile):
     book_contents = []
@@ -160,12 +166,14 @@ def get_book(sourcefile):
         initialized_first_chapter = False
         lines_skipped = 0
         for line in file:
-            if lines_skipped < 2 and (line.startswith("Title") or line.startswith("Author")):
+            if lines_skipped < 2 and (
+                line.startswith("Title") or line.startswith("Author")
+            ):
                 lines_skipped += 1
-                if line.startswith('Title: '):
-                    book_title = line.replace('Title: ', '').strip()
-                elif line.startswith('Author: '):
-                    book_author = line.replace('Author: ', '').strip()
+                if line.startswith("Title: "):
+                    book_title = line.replace("Title: ", "").strip()
+                elif line.startswith("Author: "):
+                    book_author = line.replace("Author: ", "").strip()
                 continue
             line = line.strip()
             if line.startswith("#"):
@@ -187,8 +195,10 @@ def get_book(sourcefile):
                     initialized_first_chapter = True
                 if any(char.isalnum() for char in line):
                     sentences = sent_tokenize(line)
-                    cleaned_sentences = [s for s in sentences if any(char.isalnum() for char in s)]
-                    line = ' '.join(cleaned_sentences)
+                    cleaned_sentences = [
+                        s for s in sentences if any(char.isalnum() for char in s)
+                    ]
+                    line = " ".join(cleaned_sentences)
                     current_chapter["paragraphs"].append(line)
 
         # Append the last chapter if it contains any paragraphs.
@@ -197,19 +207,11 @@ def get_book(sourcefile):
 
     return book_contents, book_title, book_author, chapter_titles
 
+
 def sort_key(s):
     # extract number from the string
-    return int(re.findall(r'\d+', s)[0])
+    return int(re.findall(r"\d+", s)[0])
 
-def check_for_file(filename):
-    if os.path.isfile(filename):
-        print(f"The file '{filename}' already exists.")
-        overwrite = input("Do you want to overwrite the file? (y/n): ")
-        if overwrite.lower() != 'y':
-            print("Exiting without overwriting the file.")
-            sys.exit()
-        else:
-            os.remove(filename)
 
 def append_silence(tempfile, duration=1200):
     audio = AudioSegment.from_file(tempfile)
@@ -220,11 +222,14 @@ def append_silence(tempfile, duration=1200):
     # Save the combined audio back to file
     combined.export(tempfile, format="flac")
 
-def read_book(book_contents, speaker):
+
+def read_book(sourcefile, book_contents, speaker):
     segments = []
+    basefile = sourcefile.replace(".txt", "")
     for i, chapter in enumerate(book_contents, start=1):
         files = []
-        partname = f"part{i}.flac"
+        partname = f"{basefile}-part{i}.flac"
+
         if os.path.isfile(partname):
             print(f"{partname} exists, skipping to next chapter")
             segments.append(partname)
@@ -233,27 +238,34 @@ def read_book(book_contents, speaker):
             if chapter["title"] == "":
                 chapter["title"] = "blank"
             asyncio.run(
-                parallel_edgespeak([chapter["title"]], [speaker], ["sntnc0.mp3"])
+                parallel_edgespeak(
+                    [chapter["title"]], [speaker], [f"{basefile}-sntnc0.mp3"]
+                )
             )
-            append_silence("sntnc0.mp3", 1200)
+            append_silence(f"{basefile}-sntnc0.mp3", 1200)
             for pindex, paragraph in enumerate(
-                tqdm(chapter["paragraphs"], desc=f"Processing chapter {i}",unit='pg')
+                tqdm(
+                    chapter["paragraphs"],
+                    desc=f"Processing chapter {sourcefile}",
+                    unit="pg",
+                )
             ):
-                ptemp = f"pgraphs{pindex}.flac"
+                ptemp = f"{basefile}-pgraphs{pindex}.flac"
                 if os.path.isfile(ptemp):
                     print(f"{ptemp} exists, skipping to next paragraph")
                 else:
                     sentences = sent_tokenize(paragraph)
                     filenames = [
-                        "sntnc" + str(z + 1) + ".mp3" for z in range(len(sentences))
+                        f"{basefile}-sntnc" + str(z + 1) + ".mp3"
+                        for z in range(len(sentences))
                     ]
                     speakers = [speaker] * len(sentences)
                     asyncio.run(parallel_edgespeak(sentences, speakers, filenames))
                     append_silence(filenames[-1], 1200)
                     # combine sentences in paragraph
                     sorted_files = sorted(filenames, key=sort_key)
-                    if os.path.exists("sntnc0.mp3"):
-                        sorted_files.insert(0, "sntnc0.mp3")
+                    if os.path.exists(f"{basefile}-sntnc0.mp3"):
+                        sorted_files.insert(0, f"{basefile}-sntnc0.mp3")
                     combined = AudioSegment.empty()
                     for file in sorted_files:
                         combined += AudioSegment.from_file(file)
@@ -272,14 +284,16 @@ def read_book(book_contents, speaker):
             segments.append(partname)
     return segments
 
-def generate_metadata(files, author, title, chapter_titles):
+
+def generate_metadata(sourcefile, files, author, title, chapter_titles):
+    # TODO: Fix the metadata properties here
     chap = 0
     start_time = 0
-    with open("FFMETADATAFILE", "w") as file:
+    ffmetadatafile = sourcefile.replace(".txt", ".ffmetadata")
+    with open(ffmetadatafile, "w") as file:
         file.write(";FFMETADATA1\n")
         file.write(f"ARTIST={author}\n")
         file.write(f"ALBUM={title}\n")
-        file.write("DESCRIPTION=Made with https://github.com/aedocw/epub2tts-edge\n")
         for file_name in files:
             duration = get_duration(file_name)
             file.write("[CHAPTER]\n")
@@ -290,22 +304,27 @@ def generate_metadata(files, author, title, chapter_titles):
             chap += 1
             start_time += duration
 
+    return ffmetadatafile
+
+
 def get_duration(file_path):
     audio = AudioSegment.from_file(file_path)
     duration_milliseconds = len(audio)
     return duration_milliseconds
 
-def make_m4b(files, sourcefile, speaker):
-    filelist = "filelist.txt"
+
+def make_m4b(files, sourcefile, speaker, ffmetadatafile):
+    filelist = sourcefile.split("/")[-1] + ".txt"
     basefile = sourcefile.replace(".txt", "")
-    outputm4a = f"{basefile}-{speaker}.m4a"
-    outputm4b = f"{basefile}-{speaker}.m4b"
+    outputm4a = f"{basefile}.m4a"
+    outputm4b = f"{basefile}.m4b"
     with open(filelist, "w") as f:
         for filename in files:
             filename = filename.replace("'", "'\\''")
             f.write(f"file '{filename}'\n")
     ffmpeg_command = [
         "ffmpeg",
+        "-y",
         "-f",
         "concat",
         "-safe",
@@ -323,10 +342,11 @@ def make_m4b(files, sourcefile, speaker):
     subprocess.run(ffmpeg_command)
     ffmpeg_command = [
         "ffmpeg",
+        "-y",
         "-i",
         outputm4a,
         "-i",
-        "FFMETADATAFILE",
+        ffmetadatafile,
         "-map_metadata",
         "1",
         "-codec",
@@ -335,13 +355,15 @@ def make_m4b(files, sourcefile, speaker):
     ]
     subprocess.run(ffmpeg_command)
     os.remove(filelist)
-    os.remove("FFMETADATAFILE")
+    os.remove(ffmetadatafile)
     os.remove(outputm4a)
     for f in files:
         os.remove(f)
     return outputm4b
 
+
 def add_cover(cover_img, filename):
+    # TODO: add metadata to m4b file https://www.audiobookshelf.org/docs#book-audio-metadata
     try:
         if os.path.isfile(cover_img):
             m4b = mp4.MP4(filename)
@@ -353,6 +375,7 @@ def add_cover(cover_img, filename):
     except:
         print(f"Cover image {cover_img} not found")
 
+
 def run_edgespeak(sentence, speaker, filename):
     for speakattempt in range(3):
         try:
@@ -362,15 +385,19 @@ def run_edgespeak(sentence, speaker, filename):
                 raise Exception("Failed to save file from edge_tts") from e
             break
         except Exception as e:
-            print(f"Attempt {speakattempt+1}/3 failed with '{sentence}' in run_edgespeak with error: {e}")
+            print(
+                f"Attempt {speakattempt+1}/3 failed with '{sentence}' in run_edgespeak with error: {e}"
+            )
             # wait a few seconds in case its a transient network issue
             time.sleep(3)
     else:
         print(f"Giving up on sentence '{sentence}' after 3 attempts in run_edgespeak.")
         exit()
 
+
 def run_save(communicate, filename):
     asyncio.run(communicate.save(filename))
+
 
 async def parallel_edgespeak(sentences, speakers, filenames):
     semaphore = asyncio.Semaphore(10)  # Limit the number of concurrent tasks
@@ -380,9 +407,11 @@ async def parallel_edgespeak(sentences, speakers, filenames):
         for sentence, speaker, filename in zip(sentences, speakers, filenames):
             async with semaphore:
                 loop = asyncio.get_running_loop()
-                sentence = re.sub(r'[!]+', '!', sentence)
-                sentence = re.sub(r'[?]+', '?', sentence)
-                task = loop.run_in_executor(executor, run_edgespeak, sentence, speaker, filename)
+                sentence = re.sub(r"[!]+", "!", sentence)
+                sentence = re.sub(r"[?]+", "?", sentence)
+                task = loop.run_in_executor(
+                    executor, run_edgespeak, sentence, speaker, filename
+                )
                 tasks.append(task)
         await asyncio.gather(*tasks)
 
@@ -412,16 +441,29 @@ def main():
 
     ensure_punkt()
 
-    #If we get an epub, export that to txt file, then exit
+    # If we get an epub, export that to txt file, then exit
     if args.sourcefile.endswith(".epub"):
         book = epub.read_epub(args.sourcefile)
-        export(book, args.sourcefile)
+        export_chapters(book, args.sourcefile)
         exit()
 
     book_contents, book_title, book_author, chapter_titles = get_book(args.sourcefile)
-    files = read_book(book_contents, args.speaker)
-    generate_metadata(files, book_author, book_title, chapter_titles)
-    m4bfilename = make_m4b(files, args.sourcefile, args.speaker)
+    files = read_book(
+        sourcefile=args.sourcefile, book_contents=book_contents, speaker=args.speaker
+    )
+    ffmetadatafile = generate_metadata(
+        sourcefile=args.sourcefile,
+        files=files,
+        author=book_author,
+        title=book_title,
+        chapter_titles=chapter_titles,
+    )
+    m4bfilename = make_m4b(
+        files=files,
+        sourcefile=args.sourcefile,
+        speaker=args.speaker,
+        ffmetadatafile=ffmetadatafile,
+    )
     add_cover(args.cover, m4bfilename)
 
 
