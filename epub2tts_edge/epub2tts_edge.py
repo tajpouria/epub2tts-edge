@@ -1,12 +1,12 @@
 import argparse
 import asyncio
 import concurrent.futures
+import datetime
 import os
 import re
 import subprocess
 import time
 import warnings
-import sys
 from tqdm import tqdm
 
 
@@ -35,13 +35,18 @@ namespaces = {
 warnings.filterwarnings("ignore", module="ebooklib.epub")
 
 
+def microseconds_to_timestamp(microseconds):
+    td = datetime.timedelta(microseconds=microseconds)
+    return str(td)[:-3].replace(".", ",")
+
+
 def ensure_punkt():
     try:
         nltk.data.find("tokenizers/punkt")
     except LookupError:
         nltk.download("punkt")
 
-    nltk.download('punkt_tab')
+    nltk.download("punkt_tab")
 
 
 def chap2text_epub(chap):
@@ -227,6 +232,7 @@ def append_silence(tempfile, duration=1200):
 
 def read_book(sourcefile, book_contents, speaker):
     segments = []
+    subs_fragments = []
     basefile = sourcefile.replace(".txt", "")
     for i, chapter in enumerate(book_contents, start=1):
         files = []
@@ -239,7 +245,7 @@ def read_book(sourcefile, book_contents, speaker):
             print(f"Chapter: {chapter['title']}\n")
             if chapter["title"] == "":
                 chapter["title"] = "blank"
-            asyncio.run(
+            subs_fragments += asyncio.run(
                 parallel_edgespeak(
                     [chapter["title"]], [speaker], [f"{basefile}-sntnc0.mp3"]
                 )
@@ -262,7 +268,9 @@ def read_book(sourcefile, book_contents, speaker):
                         for z in range(len(sentences))
                     ]
                     speakers = [speaker] * len(sentences)
-                    asyncio.run(parallel_edgespeak(sentences, speakers, filenames))
+                    subs_fragments += asyncio.run(
+                        parallel_edgespeak(sentences, speakers, filenames)
+                    )
                     append_silence(filenames[-1], 1200)
                     # combine sentences in paragraph
                     sorted_files = sorted(filenames, key=sort_key)
@@ -284,6 +292,35 @@ def read_book(sourcefile, book_contents, speaker):
             for file in files:
                 os.remove(file)
             segments.append(partname)
+
+        # Generate subtitles
+
+        cumulative_offset = 0
+        final_subtitles = []
+        fragment_durations = []
+
+        for fragment in subs_fragments:
+            fragment_end_time = max(
+                offset + duration for (offset, duration), _ in fragment
+            )
+            fragment_durations.append(fragment_end_time)
+
+            for (offset, duration), text in fragment:
+                adjusted_offset = offset + cumulative_offset
+                start_time = microseconds_to_timestamp(adjusted_offset)
+                end_time = microseconds_to_timestamp(adjusted_offset + duration)
+                final_subtitles.append((start_time, end_time, text))
+
+            cumulative_offset += fragment_end_time
+
+        final_subtitles.sort(key=lambda x: x[0])
+
+        subtitle_file = f"{basefile}.srt"
+        print(f"Writing subtitles to {subtitle_file}")
+        with open(subtitle_file, "w") as f:
+            for i, (start_time, end_time, text) in enumerate(final_subtitles, 1):
+                f.write(f"{i}\n{start_time} --> {end_time}\n{text}\n\n")
+
     return segments
 
 
@@ -382,10 +419,15 @@ def run_edgespeak(sentence, speaker, filename):
     for speakattempt in range(3):
         try:
             communicate = edge_tts.Communicate(sentence, speaker)
-            run_save(communicate, filename)
+            subs = asyncio.run(
+                run_tts(
+                    communicate=communicate,
+                    filename=filename,
+                )
+            )
             if os.path.getsize(filename) == 0:
                 raise Exception("Failed to save file from edge_tts") from e
-            break
+            return subs
         except Exception as e:
             print(
                 f"Attempt {speakattempt+1}/3 failed with '{sentence}' in run_edgespeak with error: {e}"
@@ -397,8 +439,15 @@ def run_edgespeak(sentence, speaker, filename):
         exit()
 
 
-def run_save(communicate, filename):
-    asyncio.run(communicate.save(filename))
+async def run_tts(communicate, filename):
+    subs = []
+    with open(filename, "wb") as audio_file:
+        async for chunk in communicate.stream():
+            if chunk["type"] == "audio":
+                audio_file.write(chunk["data"])
+            elif chunk["type"] == "WordBoundary":
+                subs.append(((chunk["offset"], chunk["duration"]), chunk["text"]))
+    return subs
 
 
 async def parallel_edgespeak(sentences, speakers, filenames):
@@ -415,7 +464,7 @@ async def parallel_edgespeak(sentences, speakers, filenames):
                     executor, run_edgespeak, sentence, speaker, filename
                 )
                 tasks.append(task)
-        await asyncio.gather(*tasks)
+        return await asyncio.gather(*tasks)
 
 
 def main():
