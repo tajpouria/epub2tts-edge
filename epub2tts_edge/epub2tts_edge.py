@@ -41,6 +41,8 @@ def ensure_punkt():
     except LookupError:
         nltk.download("punkt")
 
+    nltk.download('punkt_tab')
+
 
 def chap2text_epub(chap):
     blacklist = [

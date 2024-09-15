@@ -39,7 +39,7 @@ def main(
     speaker="en-US-AndrewNeural",
     max_workers=4,
     from_chapter=1,
-    to_chapter=4,
+    to_chapter=1,
 ):
     e2t.ensure_punkt()
 
