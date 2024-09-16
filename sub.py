@@ -1,34 +1,32 @@
 import json
 
-import datetime
+import edge_tts
 
 
-def microseconds_to_timestamp(microseconds):
-    td = datetime.timedelta(microseconds=microseconds)
-    return str(td)[:-3].replace(".", ",")
+def stitch_fragments_to_vtt(fragments):
+    sub_maker = edge_tts.SubMaker()
+    for fragment in fragments:
+        for (start, duration), text in fragment:
+            sub_maker.create_sub((start, duration), text)
+
+    return sub_maker.generate_subs(words_in_cue=1)
 
 
-fragments = json.load(open("data/f.json"))
+# Read fragments from the JSON file
+with open("data/f.json", "r") as file:
+    fragments = json.load(file)
 
-cumulative_offset = 0
-final_subtitles = []
-fragment_durations = []
+for fi in range(1, len(fragments)):
+    (offset, duration), _ = fragments[fi - 1][-1]
+    extra_offset = 13 * 1e6
+    carry_offset = offset + duration + extra_offset
+    for i in range(len(fragments[fi])):
+        (start, duration), text = fragments[fi][i]
+        fragments[fi][i] = ((start + carry_offset, duration), text)
 
-for fragment in fragments:
-    fragment_end_time = max(offset + duration for (offset, duration), _ in fragment)
-    fragment_durations.append(fragment_end_time)
+# Generate VTT output from the fragments
+vtt_output = stitch_fragments_to_vtt(fragments)
 
-    for (offset, duration), text in fragment:
-        adjusted_offset = offset + cumulative_offset
-        start_time = microseconds_to_timestamp(adjusted_offset)
-        end_time = microseconds_to_timestamp(adjusted_offset + duration)
-        final_subtitles.append((start_time, end_time, text))
-
-    cumulative_offset += fragment_end_time
-
-
-final_subtitles.sort(key=lambda x: x[0])
-
-with open("output.srt", "w") as f:
-    for i, (start_time, end_time, text) in enumerate(final_subtitles, 1):
-        f.write(f"{i}\n{start_time} --> {end_time}\n{text}\n\n")
+# Save the VTT to a file
+with open("data/epub/1984-2.vtt", "w") as f:
+    f.write(vtt_output)

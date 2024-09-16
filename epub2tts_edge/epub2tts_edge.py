@@ -315,11 +315,12 @@ def read_book(sourcefile, book_contents, speaker):
 
         final_subtitles.sort(key=lambda x: x[0])
 
-        subtitle_file = f"{basefile}.srt"
+        subtitle_file = f"{basefile}.vtt"
         print(f"Writing subtitles to {subtitle_file}")
         with open(subtitle_file, "w") as f:
+            f.write("WEBVTT\n\n")
             for i, (start_time, end_time, text) in enumerate(final_subtitles, 1):
-                f.write(f"{i}\n{start_time} --> {end_time}\n{text}\n\n")
+                f.write(f"{start_time} --> {end_time}\n{text}\n\n")
 
     return segments
 
